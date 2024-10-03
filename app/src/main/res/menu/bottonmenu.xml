@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_call1"
+        android:icon="@drawable/baseline_draw_24"
+        android:title="@string/pantone_book"/>
+
+
+    <item android:id="@+id/data"
+        android:icon="@drawable/ic_baseline_save_24"
+        android:title="@string/production_entry"/>
+
+    <item android:id="@+id/notification"
+        android:icon="@drawable/baseline"
+        android:title="@string/notification"/>
+</menu>

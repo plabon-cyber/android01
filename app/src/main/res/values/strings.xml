@@ -1,0 +1,1575 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Textile Freedom</string>
+    <string name="sewing">1.Plain Machine\n2.Two needle Machine\n3.Three thread over Lock Machine\n4.Four thread Over Machine\n5.Five thrad over lock machine\n6.Flad Lock machine\n7.Back Tab Machine\n8.kansai machine\n9.Bar-tack Machine\n10.Button Stitch Machine\n11.Button Hole Machine\n12.Eye let Hole Machine\n13.Feet of the Arm\n14.etc...\n</string>
+    <string name="default_notification_channel_id">default_channel</string>
+    <string name="fcm_message">FCM Message</string>
+    <!-- Admob AD ON or OFF -->
+    <!-- Device ID  setTestDeviceIds (search on logcat for device id) -->
+    <!-- Admob APP ID HERE -->
+    <!-- Admob Ad Unit IDS Here -->
+    <string name="Quality_Management_for_Production">
+\nThe merchandiser acts as the one point person for all communications with the customer. Whether there is a delivery problem or quality problem or approvals or anything, the merchandiser has to communicate with the customer and make him understand the situation. To be able to do so it is important that the merchandiser understand the quality and production norms. The merchandiser is expected to understand –\n\n
+
+✓ Garment quality (visual, measurement, construction)\n
+✓ Testing quality (fabric, trims &amp; garment)\n
+✓Packaging quality\n
+</string>
+    <string name="Quality_Management">
+\nQuality management is a method for ensuring that all the activities necessary to design, develop and implement a product or service are effective and efficient with respect to the system and its performance. Quality management can be considered to have three main components –\n\n
+
+✓Quality control\n
+✓Quality assurance &amp;\n
+✓Quality improvement\n
+</string>
+    <string name="Quality_Management_System_in_Garment_Industry">
+\nA number of systems, measures &amp; techniques are used so that only quality goods are produced in the first place &amp; defects do not originate at all. If they occur at all, there must be corrective action so that they are eliminated in the preliminary stage &amp; would not reappear, QMS generally employs the following measures, techniques to ensure that only quality goods are produced.\n\n
+
+✓Inspect all incoming, in-process &amp; final goods to ensure quality of goods.\n
+✓Ensure that all patterns &amp; grading of patterns are okay.\n
+✓Inspect marker &amp; check if it is okay &amp; within consumption.\n
+✓Inspect   spreading, cutting &amp; numbering.\n
+✓ Ensure if relaxation times was given to knit fabric.\n
+✓ Install   in-line inspector in the sewing lines.\n
+✓Install  Traffic Light Chart system or other system to monitor quality in production line.\n
+✓Inspect 100% goods delivered from sewing lines.\n
+✓ Inspect the table quality passed garments with Statistical Technique.\n
+✓ Control reject goods so that they do not mix-up with quality passed goods.\n
+✓ Control repairable goods, washable goods so that they can be double checked to ensure quality.\n
+✓Inspect goods with right equipments &amp; in right conditions (equipments should not be faulty &amp; inspection should be conducted on well lit table). S Inspect ironing, folding.\n
+✓ Make repeat inspection of garments prior to poly-bagging.\n
+✓Inspect poly-bagging &amp; assortment.\n
+✓ Final table inspection is conducted prior to shipment of goods.\n
+✓ Impart training to QA personnel so that they can easily identify defects &amp; understand the causes of defects.\n
+✓ Impart training to QA personnel on Statistical Methods.\n
+✓Make continuous improvement plans &amp; implement them.\n
+</string>
+
+    <string name="Quality_for_Export_Garment">\nIn an apparel industry manufactured garments must possess specified quality characteristics. They are given below –\n\n
+
+✓ Measurements specified by the buyer.\n
+✓ Specified sewing &amp; stitching quality.\n
+✓ Raw materials must possess specified quality.\n
+✓ Garments must possess specified design characteristics.\n
+✓ Assortment specified by the buyer.\n
+✓ Finishing, packing, packaging must be specified by the customers.\n\n
+
+So, quality of garments implies whether the specified garment has been produced with specified raw materials, with buyer specified stitching &amp; sewing quality, with specified sizes, shapes, design &amp; assortment. The Challenges of garments factory are the followings-\n\n
+
+✓Delivering of quality products.\n
+✓Competitive price.\n
+✓Delivery on time.\n
+✓Short lead time.\n
+✓Compliance of national laws and code of conduct.\n\n
+</string>
+    <string name="Quality_Level_of_a_Garment">\nBased on the existence of major &amp; minor defects garments can be classified into three categories –\n\n
+
+        <b>✓ First quality garment.</b>\n
+        <b>✓ Second quality garment.</b>\n
+        <b>✓ Third quality garment.</b>\n\n
+
+        <b>1st Quality Garments</b> - Apparels which can satisfy the buyers &amp; retain its all quality characteristics &amp; which do not possess any major defect are called 1\" quality or A-grade garments. A-Grade garments look well. They do not posses any major defect during purchase &amp; quality dose not decline on wearing.\n
+
+        <b>2nd Quality Garments</b> - These garments though possess some minor defects, retain functional quality &amp; as such sale ability to the buyers. They sometimes lose some general good appearance characteristics but do not lose acceptability to the buyers. Some defects not visible from outside may also belong to these garments. Some buyers allow up to 2 main defects in 2nd quality garments. 3 or more major defects turn them into rejects.\n
+
+        <b>3rd Quality Garments</b> - Apparels possessing major &amp; critical defects making functional quality impaired is 3rd quality garments. These garments are not in demand &amp; as such have no sale ability. Any critical &amp; major defect in any important part of a garment turns it into a reject.\n\n
+
+
+
+<b>Zone Classification of a Garment -</b>\n
+        <b>ZONE-A:</b>\n The zone of a garment that is easily visible is called Zone-A. Any minor defect falling on zone-A becomes major defect.\n
+        <b>ZONE-B:</b>\n This zone is less visible than zone-A. Back upper side shirt or shirt yoke is zone-B.\n
+        <b>ZONE-C:</b>\n Zone-C is the least visible portion of a garment. Defect on this zone are not visible.\n
+
+</string>
+
+    <string name="Garments_Quality">\nThe merchandiser should be aware of the quality parameters as laid down by the like minimum construction standards, defect zones, customer classification, packaging limitations etc. Defect
+        A merchandiser should know that the customer will accept a small fabric defect like a slab in <b>ZONE C</b> but will not accept the same defect is <b>ZONE A.</b>\n\n
+
+✓ Also a hole in a garment, whichever ZONE it falls in is always not acceptable.\n
+✓ The merchandiser should also be aware of the packaging limitations. Maximum and minimum carton size, dimension and weight acceptable by the buyer.\n
+✓Merchandise may have to take commercial decision based on understanding of the buyer quality level and so should work closely with the factory quality team as well as the buyer technical team.\n
+</string>
+    <string name="Testing_Quality">\nThe merchandiser should be aware of the various testing parameters in case of fabric. Garment and trims. Hence the different parameters on which the fabric, garment or trim are tested, the acceptable level, the tolerance level allowed by buyer. Should be known to the merchandiser.\n\n
+
+✓ FPT (fabric performance test)\n
+✓GPT (garment performance test)\n
+✓Only if the merchandiser is aware of these things can he take rational and quick decisions at the time of a failure or problem\n
+</string>
+    <string name="Packaging_Quality">\nMerchandisers should have the knowledge of all those parameters. helps to deal with various day-to-day situations.\n\n
+
+<b>For example - </b>Buyer has specified the number of pieces per carton and the maximum weight and dimensions of the carton. Suppose Pieces per Carton - 60 (given on the PO) and maximum weight of carton 16 kgs (given in quality manual). If each garment weights 300 grams then, the total carton weight will become around 20 kgs (18 kgs of samples + 2 kg as the weight of carton itself)- Thus merchandiser will have to seek permission from buyer to ship the order with 20 kg weight of carton OR change the PO
+to state 45 pieces/carton. Further to this, the merchandise should also follow up on the quality inspections being done by the quality auditor on his / her style. Thus merchandiser should insist regular
+quality checks of the product at various stages - in sewing, finishing and packing. The merchandiser should also ask for all the quality audit reports and study the same. This is important so that in case same defect is observed again and again, he can bring the same to the notice of top management so that adequate attention is paid to it and the problem is resolved quickly.\n
+</string>
+
+    <string name="Quality_Policy">\n<b>Cutting Section</b> - System adopted in Cutting Section,\n\n
+✓On rcpt of all fabric are being inspected and relaxed before spreading.\n
+✓During spreading all reject areas are marked for easy identification and replacement after cutting.\n
+✓All parts are checked after cutting and reject parts are replaced from the cutting from fabric of same roll.\n
+✓AH important areas are given cut-mark for easy control and to maintain quality./To control twisting of fabric we are tumbling the fabric (especially for low GSM fabric).\n
+✓For all stripe fabric we are giving smaller lay and is doing hand-scissoring for stripe matching.\n
+✓ Cutting parts from Top. Centre and Bottom are checked with the pattern to avoid any gross deviation after cutting.\n\n
+
+        <b>Finishing Section</b> - System adopted in the Finishing Floor.\n\n
+✓After cleaning the thread all garments are being sent to iron-man directly.\n
+✓ In the iron table we are drawing size wise graded patterns of the body and the garments are being ironed conforming to the respective sizes.\n
+✓ After ironing all garments are checked by QC and only OK garments are sent for 100% measurement and reject garments are segregated and taken away from the finishing floor.\n
+✓ After doing 100% measurement of all bodies only the OK garments are sent for folding and packing.\n
+✓We have appointed one QC to do the hourly checking of all garments and prepare a report in this regard and put up to AGM of the floor for his review.\n
+✓ At the end of the day another QC person is doing the day-final and making a report in this respect and keeping record. If the garments are found with problem in the day-final then all the garments are being opened and re-checked\n
+✓After complete finishing of any order we are doing the Pre-Final from the point of view of Buyer and making a complete report in his regard maintaining record also. If the result will be found OK only then we will be offering Final Inspection.\n
+✓ Once the garments pass the Pre-Final inspection then all the garments are kept under constant surveillance.\n
+</string>
+
+    <string name="Guidelines_to_InLine_Quality_Inspection">\n An in-line inspector is a person who conducts quality inspection while the work is in process or in progress. He is designated to identify defects at (needle point). In order to successfully conduct quality inspection of garments some guidelines must be pursued. First of all, the inspector must be a trained person &amp; must be equipped with the following tools &amp; environment.\n\n
+✓ A medium size table (of greenish grey color) lit with tube lights having light quantity to the tune of 1000 lax.\n
+✓ A measuring tape: another measuring tape fixed on the table: the tape should be metallic origin.
+Good quality scissors\n
+✓ Gummed paper arrow to display location of defects, etc.\n
+
+        <b>For inspection purpose the inspector should pursue the following guidelines – </b>\n\n
+
+✓ Inspector must have a worksheet along with size-spec &amp; special buyer instructions. if there is any.\n
+✓ For each style there should be an approved sample in close proximity to the inspector.\n
+
+        <b>First pre-production &amp; production samples must be closely monitored &amp; inspected to check the following –</b>\n\n
+
+✓ Check size-spec rigorously.\n
+✓ Check sewing &amp; non-sewing defects.\n
+✓ Check if there is any oil mark or stain mark or shading.\n
+✓ heck if there are defects due to machine, needle, thread or feed mechanism. etc.\n
+✓ Check if right color &amp; type of thread, button, zipper, lining, shell. label, logo, etc have been used.\n
+✓ Check if buyer\'s special instructions have been followed or not.\n
+✓ Check locations of major defects &amp; identify why they originated.\n
+✓ Ensure that machines, tables &amp; operator hands are clean.\n
+✓ Ensure that right type of needle, feed-mechanisms, etc. are in use.\n
+✓ Always follow worksheet, buyer\'s instructions size-spec &amp; assortment.\n
+
+</string>
+
+
+    <string name="Guidelines_to_Table_Quality_Inspection">\nThe inspector who is trained must be equipped with the following tools &amp; environment –\n\n
+
+✓ A wide table (of greenish grey color) lit with day-light type of tube lights: light quantity should be enough to the tune of 1,000 lax.\n
+✓A measuring type, another measuring type fixed on the table. Good quality scissors.\n
+✓ Gummed paper arrow to display location of defects etc.\n
+✓Inspector must have a worksheet/P.O. sheet along with size-spec.\n
+✓ Inspector must have special buyer instructions, if there is any.\n
+✓ For each style there should be an approved sample in close proximity to the inspector.\n
+✓If your factory has a quality manual approved by buyer, check with major &amp; minor defects as per that manual.\n
+✓ In absence of factory quality manual, use should be made of buyers manual enlisting major &amp; minor defects.\n
+</string>
+
+    <string name="Quality_Control_Advise">\nRead through P.O (Production Order shit)\n\n
+*Sample check. (Must)\n
+*Pattern check.\n
+*Label Check :\n
+         • Name of label\n
+         • Similarity with size and care label.\n
+         • Main label ground and size label ground will be same.\n
+         • Care instruction\n
+         • Placement of label.\n
+* Category of dress,\n
+* Check of fabric construction and count\n
+* Thread matching\n
+* Stitch per inch. (S.P.I)\n
+* Number (part) matching 100%.\n
+* Pocket shape will be as per sample.\n
+* Pocket placement should be as per space.\n
+* Pocket should not up-down.\n
+* Thread matching\n
+* Flap shape need original.\n
+* Collar point should be equal.\n
+* Band peak need same shape in both side.\n
+* Cuff joint/Sleeve joint / Collar joint must be proper.\n
+* Inlay should be properly.\n
+* Need back stitch starting and ending.\n
+* All double stitch should be even.\n
+* Joint position should be invisible but perfect.\n
+* Front fly should not be up-down.\n
+* Loop position must as per sample on instruction.\n
+* Stitch on loop must be tight.\n
+* Belt should even everywhere.\n
+* Front part should not uneven.\n
+* Cross point should not up-down.\n
+* Two sleeve always even.\n
+* Check or strip matching.\n
+* Puckering stitch not allow.\n
+* All measurement must be look.\n
+</string>
+
+
+    <string-array name="notification_messages">
+        <item>Notification message 1</item>
+        <item>Notification message 2</item>
+        <!-- Add more items as needed -->
+    </string-array>
+
+    <string name="fourPoint">
+        Less Then 3 inch......1 point\n
+        3 to 6 inch...............2 point\n
+        6 to 9 inch...............3 point\n
+        9 inch to over..........4 point\n
+        Any hole.................4 point\n
+    </string>
+
+    <string name="CountGsm">
+        \n<b>A. Single Jersey:</b>\n
+        1.130-150..............30\'s\n
+        2.160-170..............26\'s\n
+        3.180-200..............24\'s\n
+        4.220-240..............20\'s\n\n
+        <b>B. P.K./Lacost/1x1 Rib:</b>\n
+        1.150-170..............34\'s\n
+        2.180-200..............30\'s\n
+        3.210-225..............26\'s\n
+        4.230-250..............24\'s\n
+        5.250-270..............20\'s\n\n
+        <b>C. 2x1 Rib:</b>\n
+        1.220-230..............30\'s\n
+        2.240-250..............26\'s\n
+        3.260-280..............24\'s\n\n
+        <b>D. Interlock:</b>\n
+        ...............<u>24 G..........22 G</u>\n
+        1.40\'s....220..............200\n
+        2.34\'s....250..............230\n
+        3.30\'s....260..............240\n
+        4.26\'s....275..............260\n\n
+        <b>E. S/J with Lycra 5\%:</b>\n
+        1.150-160..............34\'s\n
+        2.170-190..............30\'s\n
+        3.200-210..............26\'s\n
+        4.220-240..............24\'s\n\n
+        <b>F. Fleece:</b>\n
+        1.250........20,30\'s(Ratio 20:80)\n
+        2.300........10,26\'s(Ratio 30:70)\n
+    </string>
+    <string name="SewingDefect">
+      \n1. Broken Stitch\n2. Skip Stitch\n3. Uneven Stitch\n4. Join Stitch\n5. Over Stitching\n6.Wavy\n7. Open Stitching\n8.Pleat\n9. Puckering\n10. Hi-Low\n
+11. Uneven Sharing\n12. Uneven Shape\n13. Rawdge\n14. Yoke Slanted\n15. Uneven Width\n16.Dirty Stain\n17. Shading\n18. Oil Stain\n19. Bad Tension\n20. Tension Loose/Tight\n
+21. Incorrect SPI\n22. Incorrect Lable\n23. Twisted Binding\n24. Twisted Shoulder\n25. Wrinkle Binding\n26. Jam stitch\n27. Insecure Hook/Eye\n28. Needle Hole/Needle Cut\n29.Hole/Reject\n30.Crise Mark\n
+31.Fabric Stratch Out\n32.Pulling\n33.Crockrd Label\n34.Fabric Reverse\n35.Incorrect Wire\n36.Cup Busting Loose/Tight\n37.Loose Thread Inside Cup\n38.Curling\n
+39.Pointy\n40.Label Reverse\n41.Uneven Lob\n42.Wire Ply Loose/Tight\n43.Wrong trims\n44.Slaintgly attachment\n45.Fiber Fill Broken\n46.Slub\n47.Bartack Wrong Place\n8.Projection\n
+49.Uneven Seam Allowance\n50.Thread Mistake\n51.Fabric Cut\n52.Elastic shaow/Reverse\n53.Crotch not Proper\n54.Side Seam curve\n55.Damage\n56.Down Stitch\n
+57.HI-King\n58.Fold\n59.Incorrect Underwire\n60.Knot\n61.Up-Down\n62.Operation Mistake\n63.Incorrect Measurement\n64.Foregin Yarn\n65.Narrow Goods\n66.Pair Mistake\n
+67.Layer Missing\n68.Fabric Way Mistake\n69.Print missing\n70.Fabric Grain Line Wrong\n\n
+    </string>
+    <string name="kniteDyeProcess">
+        <b>Loading Hot </b>                                                               =85x10 min (Only Lycra Fabric without chemical)\n
+        <b>Scouring Process:</b> (Liquor Ratio=1:7)\n
+Detergent BOSS                                                          =0.9 g/l (NOF-0.6,RPN/RGN=0.8,SOB=1.2g/1)\n
+Sequestering+Stabilizer CONZ                                 =0.7 g/1\n
+OR, Denquest HYN                                                     =0.5 g/l+DENSTAP ESG=0.5 g/1\n
+Anticresing agent Polymer ECO                              =0.70 g/l (Note: No need to use anticreasing agent for
+                                                                                        (1x1)Rib, Interlock, PK, Fleece etc Fab.)\n
+or\n
+PERSOFTAL L                                                              =0.8 g/l (must be used for S/J 180 &amp; 200 GSM)\n
+Caustic Soda                                                              =1.75 g/1\n
+H2O2(50%)                                                                = 1.75g/1\n \n
+
+        <b>Scouring Time:</b>\n
+1.All Types of Cotton                                                 =110x30 min\n
+2.Lycra Fabric &amp; Low GSM(120/140gsm)              =100x40 min.\n
+Acetic Acid                                                                  =1.0 g/1\n
+Peroxide Killer BRE                                                   =0.4 g/l (For Biokill =0.25 g/l) (Antiper R=0.3 g/l)\n
+Enzyme                                                                       =1.0 g/l (As required)\n
+                                                                                      PH-4.5-5.0, 55x50 min\n\n
+
+        <b>Dye Bath: (Liquor Ratio=1:7)</b>\n
+Levelling agent REB                                                  =1.0 g/l (for It.&amp;Medium Colour) (0.5+0.5)\n
+                                                                                     =0,6-g/l For (Deep Colour) (0.3+0.3)\n
+CNT                                                                             =0.3 g/l (For Cretical Colour) (0.1+0.2)\n
+RL                                                                                =0.8 g/l\n
+Anticreasing agent ECO                                           = 0.5 g/1(PESOFTAL-L=0.5g/l FOR 180 GSM S/J)\n\n
+Glauber Salt(As required)\n
+Dyes (As per Recipe Amount)\n
+Soda Ash /Bufferon (as required)\n\n
+
+        <b>After Treatment:</b>\n
+Acetic Acid                                                                   =1.0 g/l\n
+Soaping wash AVOLAN IS/ERIPON R)                     = 1.0 g/l(In 95x15 min for Lt. Shade)\n
+                                                                                        (Two wash for medium&amp;Deep Shade)\n
+Fixing agent -ECO/GG 100                                        =1.0-2.0 g/l (for medium &amp; Deep Shade)\n
+Acetic Acid                                                                  =0.3 g/1\n
+Softner IMA/VNO                                                      =1.0-2.0 g/1\n\n
+
+<b>process:</b>\n
+1. Scouring (110x30 min), Cooling at 78; Direct Drain.\n
+2. Take Stock Tank Water in m/c &amp; Hot-90x10 min, Drain with Rinsing at 75x5.\n
+3. Fill water from Stock tank at 60, Acid, Peroxide Killer, Check Ph(4.5-4.8), Enzyme(55x50 min), Raise Temp 80x5 min, Drain.\n
+4. Fill Water &amp; Start Dyeing Process........\n
+
+    </string>
+
+    <string name="SewingControl">
+       \n 1.  B/4 Input collects MO, Swatch, Sample, Size set or pp comments, Operation chart, Technical pack &amp; PP
+meeting comments. All documents you get from QC officer. If not inform QCM.\n\n
+2.  In put check (Fabric /Accessories check with swatch &amp; MO, Cut panel check with pattern)\n\n
+3.  Each operation check with operation chart (SPI, Needle gauge, Thread application, Febric top/Inside,
+Seam allowance, Machine type, Needle type &amp; method)\n\n
+4.  Each operation fixed with measurement. If finished measurement only you find it process measurement,
+if no spec measurement you find it from pattern.\n\n
+5.  Give operation standard to operator by confirming (No materials, measurement, machine &amp;
+workmanship problems).\n\n
+6.  Size wise bundling strongly follows in sewing line.\n\n
+7.  Confirm size wise Label &amp; attaching.\n\n
+8.  Give technical measurement where need by QC officer signature.\n\n
+9.  Check 1st bundle productions properly makes report &amp; take 1st production meeting with production &amp;
+Quality concern, report &amp; garments must show QCM.\n\n
+10.  Check styling &amp; makes report, Garments &amp; report must show to QCM.\n\n
+11.  From 1st production 1 pes garments should send to merchandiser for materials confirmation.\n\n
+12.  Inline QC must check all using needle &amp; makes report in 1st hour. If gets problematic needle, change it
+at once.\n\n
+13.  In line QC must check 8 pcs per operation 4 times in a day. Two times b/4 lunch &amp; two times after
+lunch &amp; makes transparent report. He compares the running process with operation standard.\n\n
+14.  Inline QC should check end table QI\'s passed garments &amp; catches garments &amp; take action accordingly in
+sewing line.\n\n
+15.  Quality Officer gives checking points, Spec, measurements method chart, barcode chart, label
+information &amp; check sequence to End table QI.\n\n
+16.  End table QI takes measurements b/4 lunch 10 pcs &amp; after lunch 10 pcs.\n\n
+17.  End table QI hourly defect garments give to Group leader by signature for rectifications. If GL not back
+same hour then she informs it to QC officer.\n\n
+18.  End table should pass the qty with bundle as per bundle card qty.\n\n
+19.  If any major problem end table found or same problem continue found she inform it to QC officer or
+QCM.\n\n
+20.  End Table QC makes her report hourly basis with actual findings.\n\n
+21.  Quality controller makes style wise inline report &amp; all point measurement report with all out put sizes.\n\n
+22.  Quality controller will give counter check all stages of inline &amp; End table Ql\'s continuous works.\n\n
+23.  Quality controller makes inline report if gets any mistake from line.\n\n
+24.  Quality controller check if there any Qc check balance or sort out (major/ minor) instructed by Qc
+officer &amp; makes report.\n\n
+25.  Quality controller should follow up audit take &amp; takes necessary steps if there any crisis.\n\n
+26.  Quality controller must check packing section b/4 lunch &amp; after lunch if there any defects for urgent
+rectifications.\n\n
+27.  Quality controller will make daily Quality control summary report (Inline, end table &amp; highest three &amp;
+submit to Qc officer.\n\n
+28.  Quality Controller is responsible to makes MO qty sample or per size 10 pcs sample &amp; handover to
+GPQ.\n\n
+    </string>
+
+
+    <string name="grade">
+       Up to 40 Points=A\n
+        41 to 60 Point=B\n
+        61 to 80 Point=C\n
+        81 to Above=Rejected\n\n\n
+        Acceptable Point Per 100 Sq.Yds.\n\n
+        *Individual Roll.......30 point\n
+        *Lot Avarage...........30 Point\n
+    </string>
+
+    <string name="defect">
+      \n<b>Yarn</b>\n
+        *Slub\n
+        *Yarn Contramination\n
+        *Patta\n
+        *Others\n\n
+        <b>Knitting</b>\n
+        *Any Hole/Set Up\n
+        *Sinker Mark\n
+        *Needle Mark\n
+        *Knot\n
+        *Others\n\n
+        <b>Weaving</b>\n
+        *Bad Selvage\n
+        *Broken Ends or Warp\n
+        *Broken Pick or Weft\n
+        *Loose Warp\n
+        *Losse Weft or Snarl\n
+        *Double-end\n
+        *Tight end\n
+        *The float of warp\n
+        *Worng end color\n
+        *Miss Pick\n
+        *Double Pick\n
+        *Weft bar\n
+        *Ball\n
+        *Hole\n
+        *Oil Spot\n
+        *Tails out\n
+        *Temple mark\n
+        *Reed mark\n
+        *Slub\n
+        *A Thick and thin place\n
+        *Others\n\n
+        <b>Dyeing</b>\n
+        *Crease Mark\n
+        *runnig Mark\n
+        *Side to Side Shade\n
+        *Uneven Dyeing\n
+        *Others\n\n\n
+        <b>Finishing</b>\n
+        *Spot\n
+        *Compection Mark\n
+        *Blass &amp; Bow\n
+        *Side/Middle Loose\n
+        *Others\n\n\n
+        <b>Print</b>\n
+        *Print Over Loading\n
+        *Miss Print\n
+        *Print shade\n
+        *Other\n\n\n
+    </string>
+
+    <string name="open">Open</string>
+
+    <string name="tih2o2"><b>T</b>ake 1ml sample of the chemical solution from the mother tank to a chimical flask.
+    Then add 10 ml of 25% H2SO4 and 15 ml of water with the solution and stir it for few seconds.TThen the chemical flask with the sample
+    is set under a burette containing 0.1N K2MnO4 next 0.1N K2MnO4 is added to the sample solution one drop at a time until the solution
+    turn into light pink color. The no of 0.1N K2MnO4 drops required in the reading that is used to calculate the amount of H2O2
+    present in the mixing tank.100% H2O2 gm per 1 liter of solution is present in the mixing tank=3.4% reading.</string>
+
+    <string name="tinaoh"><b>Take</b> 1ml sample of the chemical solution from the mother thank into a \n
+        chemical flask.
+        Then add 25ml of water with the solution and stir for few seconds.Next add 1-2
+        drops of reagent onto the sample solution,this will trun the solution into light pink color.
+        Then the chemical flask with the sample is set under a burette containing 0.1N HCl acid next
+        HCl added to the sample solution and drop at a time until the light pink color disappears.
+        The no of 0.1N HCl drops required is the reading that is used to calculate the amount of\n
+        NaOH present in the mixing tank.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="molarity_normality">## Molarity is the number of moles of a solute dissolved in a \n
+        liter of solution.\n
+        ## Normality is the number of equivalents of a solute dissolved in a liter of solution.\n
+##What is the difference between “the number of moles” &amp; “ the number of equivalents”?\n
+The number of moles =\n
+The number of equivalents =\n
+The equivalent mass =\n
+For acid, n = Number of H+ ion per mole of acid\n
+For base, n = Number of OH- ion per mole of base\n
+For salt, n = Number of positively charged ion per mole of salt\n
+For reducing agent, n = Number of e- lost per mole of substance\n
+For oxidizing agent, n = Number of e- gained per mole of substance\n
+Suppose we have 98g H2SO4 (molar mass: 98 g/mol) in 1L solution.\n
+Number of moles:  = 1 mole\n
+M=  =  = 1M (mole/L)\n
+N=\n
+Number of equivalent =\n
+Equivalent mass =   =  = 49/ equivalent\n
+Number of equivalent =  = 2 equivalent\n
+N =  = 2N (equivalent/ L)\n
+The same solution, but the concentration is 1 M in terms of molarity, but 2N in terms of Normality.\n
+</string>
+    <string name="sulfuric_acid">Weigh a glass stoppered flask, quickly add about 1 ml of sample, \n
+        stopper immediately, and reweigh.\n
+Add 50 mls of H20 and titrate with standardized 1.0N NaOH using methyl orange as indicator.\n
+        One ml of 1.0N NaOH = 0.04904 g H2SO4.\n\n\n
+
+
+ADDITIONAL DETAILS:\n
+
+Let\'s say the amount of H2SO4 you have in the flask is 1.15 grams (You get that by weighing the empty flask,\n
+        putting the acid in, and reweighing it. The difference is the amount of acid you added.)\n
+
+Then you add the 50 mls water and titrate to a methyl orange endpoint. You see that you used 22.1\n
+        mls of the NaOH solution. The NaOH solution was standardized at 1.052N. Here are the calculations:\n
+
+22.1 mls X 1.052 X 0.04904 = 1.14 grams of H2SO4\n
+
+Then divide that number by what you started with (1.15 grams):\n
+
+1.14 divided by 1.15 = 99.1% purity\n
+
+Reaction: H2SO4 (aq) + 2NaOH (aq) --- > Na2SO4 (aq) + 2H2O (l)\n
+
+Sulfuric acid Purity %=\n
+
+        Sulfuric acid Purity %=(Burette Reading X N of NaOHX0.049)/(Sample weight)  X 100
+
+
+
+
+</string>
+
+    <string name="hydrocloric_avid">Chemicals:\n
+Caustic soda (NaOH) ...................... 1.0N Solution\n
+Phenolphthalein (C20H14O4) ........0.1% solution\n
+Hydrochloric acid (HCl) ................2.0 gm + 100ml Water\n
+Testing Procedure:\n
+2.0 gm Hydrochloric acid and 100 ml Water and Phenolphthalein- As Indicator (3 drops) are taken in a glass flask.\n
+Caustic Soda is kept pouring from burette into the flask drop by drop until the solution color turns into pink.\n
+Burette reading is taken\n
+Reaction: NaOH(aq) + HCl(aq)  NaCl(aq) + H2O(l)\n
+Calculation:\n
+HCl Purity %=\n
+        HCl Purity %=(Burette Reading X N of NaOH X0.0365)/(Sample weight)  X 100
+</string>
+
+    <string name="acitic_acid">Chemicals:\n
+Caustic soda (NaOH)............................ 4.0% solution/ 1.0N\n
+Phenolphthalein (C20H14O4) ...............0.1% solution\n
+Acetic Acid (CH3COOH) ....................2.0 gm + 100ml Water\n
+Testing Procedure:\n
+2.0 gm Acetic acid and 100 ml water and Phenolphthalein- As Indicator (3 drops) are taken in a glass flask.\n
+Caustic Soda is kept pouring from burette into the flask drop by drop until the solution color turns into pink.\n
+Burette reading is taken\n
+Reaction:    NaOH + CH3COOH = CH3COONa + H2O\n
+Calculation:\n
+        Acetic acid Purity %=(Burette Reading X N of NaOH X0.06)/(Sample weight)  X 100
+
+Acetic acid Purity %=\n</string>
+
+    <string name="oxalic_acid">Procedure:-\n
+take 1-2gm sample of oxalic acid and dissolve in 50 ml water\n
+ Add 2-3 drops Phenolphthalein indicator.\n
+Fill the burette with 0.1N NaOH solution.\n
+Titrate the sample against 0.1N NaOH solution up to pink color.\n
+Note the reading and calculate the strength.\n\n\n
+
+Reaction: (COOH)2 + 2NaOH → (COONa)2 + 2H2O\n
+ 1mol (COOH)2 will completely react with 2 mol NaOH to produce 1mol sodium oxalate and 2 mol H2O\n
+% Purity of Oxalic Acid \n
+    % Purity of Oxalic Acid =(BR x N of NaOH x0.045x100)/(Sample Weight)
+    </string>
+
+    <string name="citricacid"><h4><b><u>PURITY TESTING PROCEDURE OF CITRIC ACID(C6H8O7)</u></b></h4>\n\n
+Procedure:-\n
+take 1-2gm sample of Citric acid and dissolve in 50 ml water\n
+ Add 2-3 drops Phenolphthalein indicator.\n
+Fill the burette with 0.1N NaOH solution.\n
+Titrate the sample against 0.1N NaOH solution up to pink color.\n
+Note the reading and calculate the strength.\n\n
+
+Sodium Hydroxide + Citric Acid —> Sodium Citrate + Water + Heat\n
+C6H8O7+3NaOH  Na3C6H5O7+3H2O+ Heat\n
+Molar mass of C6H8O7 = 192.12352 g/mol\n
+Indicator: Phenopthlein\n\n
+
+Citric acid Purity %=\n
+        Citric acid Purity %=(Burette reading X N of NaOH X 0.064)/(Sample weight)  X 100
+
+
+</string>
+    <string name="boricacid"><h4><b><u>Boric acid is determined by acid-base titration method i.e\n
+        Direct titration method.</u></b></h4>\n\n
+Boric acid is a weak acid and hence it cannot be determined quantitatively in aqueous solution \n
+        with standard Sodium hydroxide solution using visual indicator. However it can be determined by\n
+        titrating with standard sodium hydroxide solution in the presence of polyhydric alcohols such as\n
+        glycerol or mannitol because Glyceryl boric acid which is formed on treatment of Boric acid with glycerol.\n
+        This Glyceryl boric acid acts as a strong acid and can be titrated against a standard Sodium hydroxide\n
+        solution using visual indicator (Phenopthlein).\n
+4 H3BO3 + 2 NaOH = Na2B4O7 + 7 H2O\n\n
+Boric acid reacts with sodium hydroxide to produce sodium borate and water.\n
+ Boric acid actually ionizes by accepting a hydroxide ion (and thus an electron pair) from water,\n
+        rather than by donating H+.This makes it a Lewis Acid\n
+B(OH)3 (aq.) + H2O ---------> B(OH)4- (aq.) + H+ (aq.)\n
+The tetrahydroxyborate ion, in turn, can yield something that should look familiar.\n
+4B(OH)4- (aq.) + 2H+ (aq.) --------->B4O72−(aq.)+9H2O\n\n
+
+Again, we are dealing with a Lewis Acid, not a classic "proton donor", \n
+        so these equations don\'t give us the typical Arrhenius acid-base equilibrium expressions (yet).\n
+        Notice here the tetraborate ion, B4O72− , which occurs also with the ionization of borax. \n
+        In a borax-boric acid buffer solution (~ pH 9), tetraborate and monohydrogen tetraborate are\n
+        actually the primary species, as long as the boron concentration is greater than about 0.025 M.\n
+ Equations 3 and 4 show us that a connection exists in solution between tetraborate, tetrahydroxyborate,\n
+        and boric acid.\n
+ In theory, it takes four moles of boric acid to yield one mole of B4O72- in solution.\n
+        If we quadruple the coefficients in Equation 1 to correspond with Equation 2, we get 4B(OH)3.\n
+        Equation  shows what happens when we combine the two equations:\n
+4B(OH)3 (aq.) ---------> B4O72−(aq.)+ 5H2O +2H+ (aq.)\n\n
+
+Notice that the H+ is now on the right, which is consistent with the fact that boric acid yields\n
+        an acidic solution. Because H2B4O7 is not a strong acid, though, it does not completely ionize.\n
+First ionization (Equation ):\n
+H2B4O7 (aq.) --------->HB4O7- (aq.) +H+ (aq.)\n
+Second ionization (Equation ):\n
+HB4O7- (aq.)--------->B4O72- (aq.)+ H+ (aq.)\n\n
+
+% Purity of Boric Acid =\n
+        % Purity of Boric Acid =(Burette reading X N of NaOH X 0.124)/(Sample weight)  X 100
+
+</string>
+    <string name="lacticacid"><h4><b><u> PURITY TESTING PROCEDURE OF LACTIC ACID(C3H6O3)
+        Procedure:- </u></b></h4>\n\n
+take 1-2gm sample of Lactic acid and dissolve in 50 ml water\n
+ Add 2-3 drops Phenolphthalein indicator.\n
+Fill the burette with 0.1N NaOH solution.\n
+Titrate the sample against 0.1N NaOH solution up to pink color.\n
+Note the reading and calculate the strength.\n
+Sodium Hydroxide + Lactic acid —> Sodium Lactate + Water\n
+NaOH + C3H6O3 → NaC3H5O3 + H2O\n
+Molar mass of C3H6O3 = 90.08 g/mol\n
+Indicator: Phenopthlein\n\n
+
+Lactic acid Purity %=\n
+
+        Lactic acid Purity %=(Burette reading X N of NaOH X 0.09)/(Sample weight)  X 100
+</string>
+    <string name="phosphoric"><h4><b><u>PURITY TESTING PROCEDURE OF PHOSPHORIC ACID(H3PO4)</u></b></h4>\n\n
+
+Procedure:-\n
+take 1-2gm sample of Phosphoric acid and dissolve in 50 ml water\n
+ Add 2-3 drops Phenolphthalein indicator.\n
+Fill the burette with 0.1N NaOH solution.\n
+Titrate the sample against 0.1N NaOH solution up to pink color.\n
+Note the reading and calculate the strength.\n\n
+
+The actual reaction will depend on the relative amount of sodium hydroxide. \n\n
+
+Equal volumes of equimolar solutions: \n
+H3PO4 + NaOH --> NaH2PO4(aq) + HOH \n\n
+
+As the relative amount of OH- increases, you could get\n
+H3PO4 + 2NaOH --> Na2HPO4(aq) + 2HOH \n\n
+
+And with a substantial excess of NaOH, then you get \n
+H3PO4 + 3NaOH --> Na3PO4(aq) + 3HOH\n
+Phosphoric acid Purity %=\n
+
+        Phosphoric acid Purity %=(Burette reading X N of NaOH X 0.03267)/(Sample weight)  X 100
+</string>
+
+    <string name="hydrogenperoxide"><h4><b><u>PURITY TESTING PROCEDURE OF HYDROGEN PEROXIDE (H2O2)</u></b> </h4>\n\n
+
+Chemicals: \n
+Hydrogen Peroxide (H2O2) ...................... 2.0 gm\n
+Sulphuric Acid (H2SO4) ...........................20% solution 10ml\n
+Potassium Permanganate (KMnO4) ..........0.1N Solution\n\n
+Testing Procedure: \n
+Hydrogen Peroxide (2.0 gm) and Sulphuric acid (10ml or 2gm) are taken in a glass flask.\n
+Potassium Permanganate is kept pouring from burette into the flask drop by drop until the \n
+        solution color turns into pink.\n
+Burette reading is taken \n
+Reaction: 2MnO4-+ 6H++ 5H2O2        5O2+ 8H2O + 2Mn2+\n
+Calculation: \n
+H2O2 Purity %= =\n
+        H2O2Purity %=(BR X N of KMnO4X0.017)/(Sample weight)  X 100 = (BR X M of KMnO4X0.085)/(Sample weight)  X 100
+</string>
+    <string name="sodiumhydro"><h4><b><u>PURITY TESTING PROCEDURE OF SODIUM HYDROXIDE (NaOH)</u></b></h4>\n\n
+Procedure:-\n
+Take 1-2gm sample in a titration flask and dilute upto 50ml\n
+Add 2-3 drops of 1% phenolphthalein indicator\n
+ Fill the burette with 1.0N HCl solution.\n
+Titrate the said solution against 1.0N HCl solution untill color disappear.\n
+Note the reading and calculate the strength.\n
+Reaction: HCl + NaOH ==> NaCl + H2O\n\n
+
+Calculation:-% Purity of Caustic \n
+
+        % Purity of Caustic =(BR x N of HClx0.04x100)/(Sample Weight)
+    </string>
+    <string name="sodiumbi"><h4><b><u>PURITY TESTING PROCEDURE OF SODIUM BICARBONATE (NaHCO3)</u></b></h4>\n\n
+Procedure:-\n
+Take 1-2gm sample and dissolve in 50ml water\n
+Add 4-5 drops of 1% Methyl orange indicator\n
+Fill the burette with 1N HCl solution\n
+Titrate the sample against 1N HCl until the color become red\n
+Note the reading and calculate the strength\n\n
+
+Reaction: NaHCO3 + HCl → NaCl + CO2 + H2O\n
+% Purity of Sodium bicarbonate \n
+        % Purity of Sodium bicarbonate=(BR x N of HCl x0.084x100)/(Sample Weight)
+
+</string>
+    <string name="sodaash"><h4><b><u>PURITY TESTING PROCEDURE OF SODA ASH (Na2CO3)</u></b></h4>\n\n
+
+Procedure:-\n
+Take 1.0 -2.0 gm sample in flask and dissolve in 100 ml water\n
+Add few drops of 1% Methyl orange indicator\n
+Fill the burette with 1N HCl solution\n
+Titrate the sample against 1N HCl solutions until the color become red\n
+ Note the reading and calculate the strength\n\n
+
+Reaction: Na2CO3 + 2HCl ==> 2NaCl + H2O + CO2\n
+% Purity of Soda ash \n
+        % Purity of Soda ash=(BR x N of HCl x0.053x100)/(Sample Weight)
+</string>
+
+    <string name="sodiumsulphet"><h4><b><u>PURITY TESTING PROCEDURE OF SODIUM SULFATE(Na2SO4)</u></b></h4>\n\n
+Na2SO4･nH2O (n=10 or 0)\n
+Mol. Wt. decahydrate 322.20\n
+anhydrous 142.04\n\n
+
+Definition: Sodium Sulfate occurs as two forms: the crystal form (decahydrate) called Sodium Sulfate\n
+        (crystal) and the anhydrous form called Sodium Sulfate (anhydrous). \n\n
+
+Content: Sodium Sulfate, when dried, contains not less than 99.0% of sodium sulfate (Na2SO4). \n\n
+
+Description: Sodium Sulfate (crystal) occurs ascolorless crystals or as a white crystalline powder.\n
+        Sodium Sulfate (anhydrous) occurs as a white powder. \n\n
+
+Identification: Sodium Sulfate responds to all tests for Sodium Salt and for Sulfate as described\n
+        in the Qualitative Tests. \n
+Purity: Dry Sodium Sulfate (crystal) before performing the test. \n
+(1)Clarity and color of solution: Colorless, almost clear (1.0 g, water 10 ml.) \n
+(2)Chloride: Not more than 0.11% as Cl (0.10 g, Control solution 0.01 mol/l hydrochloric acid 0.30 ml). \n
+(3) Heavy metals: Not more than 10μg/g as Pb (2.0 g, Method 1, Control solution Lead Standard Solution 2.0 ml). \n
+(4)Arsenic: Not more than 4.0 μg/g as As2O3(0.50 g, Method 1, Apparatus B). \n\n
+
+Loss on Drying\n
+Crystal: 51.0－57.0% (105°C, 4 hours).\n
+Anhydrous: Not more than 5.0% (105°C, 4 hours). \n\n
+
+
+Assay:\n
+Weigh accurately about 0.4 g of SodiumSulfate, previously dried, dissolve in 200 ml of water,\n
+        add 1 ml of hydrochloric acid, boil, and add gradually 30 ml of barium chloride solution (1 →6).\n
+        Heat this solution in a water bath for 1 hour, cool, and filter through a filter paper\n
+        for quantitative analysis (5C). Wash the residue on the filter paper with warm water until\n
+        the washings do not give positive tests for Chloride. Dry the residue with the filter paper,\n
+        ignite to constant weight, and weigh accurately as Barium Sulfate (BaSO4). \n\n
+Reaction: BaCl2(aq) + Na2SO4(aq)---> BaSO4 (s) +2 NaCl(aq) \n
+Ba2+(aq)+2Cl-(aq)+2Na+(aq)+SO42-(aq) ---> 2Na+(aq)+2Cl-(aq)+BaSO4(s) \n\n
+
+
+Content of sodium sulfate (Na2SO4) =\n
+        Content of sodium sulfate (Na2SO4) =(weight (g)of BaSO4  X 0.6086)/(Weight (g)of the sample)  X 100
+</string>
+    <string name="sodiumthio"><h4><b><u>PURITY TESTING PROCEDURE OF SODIUM THIOSULPHATE(Na2S2O3)</u></b></h4>\n\n
+Procedure:-\n
+take 1-2gm sample of SodiumThiosulphate and dissolve in 50 ml water\n
+ Add 2-3 drops Starch indicator.\n
+Fill the burette with 0.1N Iodine solution.\n
+Titrate the sample against 0.1N Iodine solution up to Blue color appear.\n
+Note the reading and calculate the strength.\n\n
+
+I2+ 2Na2S2O3→2NaI + Na2S4O6\n
+Indicator: Starch\n
+Purity % of Na2S2O3=  \n
+        Purity % of Na2S2O3=(BR X N of I X 0.158)/(Sample weight)  X 100 = (BR X M of I X 0.316)/(Sample weight)  X 100
+</string>
+    <string name="sodiumslicate"><h4><b><u>PURITY TESTING PROCEDURE OF SODIUM SILICATE(Na2SiO3)</u></b></h4>\n\n
+Procedure:-\n
+take 1-2gm sample of Sodiumsilicate and dissolve in 50 ml water\n
+ Add 2-3 drops Methyle orange indicator.\n
+Fill the burette with 1N HCl solution.\n
+Titrate the sample against 1N HCl solution up to pink color.\n
+Note the reading and calculate the strength.\n\n
+
+Na2SiO3(aq) + 2HCl(aq) ===> SiO2(s) + 2NaCl(aq) + H2O\n
+Indicator: Phenolphthalein \n
+Purity % of Na2SiO3= \n
+        Purity % of Na2SiO3=(Burette reading X N of HCl X 0.061)/(Sample weight)  X 100
+</string>
+    <string name="sodiumdi"><h4><b><u>PURITY TESTING PROCEDURE OF SODIUM DITHIONITE(Na2S2O4)</u></b></h4>\n\n
+
+The sodium dithionite content can most readily be determined iodometrically. \n
+        It is dissolved in a neutral formaldehyde solution in a standard flask.\n
+        The dithionite, which is sensitive to oxidation, \n
+        reacts immediately on dissolving to give the more stable sodium hydroxymethanesulfinate, \n
+        which can be titrated. \n\n
+Na2S2O4 + 2 CH2O + H2O -> HOCH2SO2Na + HOCH2SO3Na \n
+HOCH2SO2Na + 2 I2 + 2 H2O -> NaHSO4 + 4 HI + CH2O \n
+However, this method of analysis does not differentiate between dithionite and any \n
+        thiosulfate which may be present. Since no acid is formed in the iodometric oxidation\n
+        of thiosulfate, but is formed in the dithionite titration, the proportion of dithionite \n
+        can be determined by subsequent titration of the solution with alkali.\n\n
+Assay:\n
+Add 10 ml of water to 10 ml of formalin, and neutralize with sodium hydroxide solution (1 →25). To this solution,\n
+        add about 2 g of Sodium Hydrosulfite, accurately weighed, and dissolve in water to make exactly 500 ml.\n
+        Measure exactly 25 ml of this solution, adjust the pH to 1.1－1.5 with diluted hydrochloric acid (1 →10),\n
+        and titrate with\n
+        0.05 mol/l iodine for sodium hydrosulfite (indicator: starch TS). \n\n
+1 ml of 0.05 mol/l iodine = 4.353mg of Na2S2O4\n\n
+
+Sodium dithionite Purity %=  = \n\n
+ Sodium dithionitePurity %= (BR x N of I X 0.0435)/(Sample weight)  x 100 = (BR x M of I X 0.0870)/(Sample weight)  x 100
+
+strongly alkaline medium: \n
+3 Na2S2O4+ 6 NaOH →5 Na2SO3+ Na2S + H2O \n\n
+
+Sodium dithionite Purity %= \n
+Sodium dithionitePurity %= (BR x N of NaOH X 0.0871)/(Sample weight)  x 100
+</string>
+    <string name="sodiumcloride"><h4><b><u>PURITY TESTING PROCEDURE OF SODIUM CHLORIDE(NaCl) </u></b></h4>\n\n
+Procedure:-\n
+Take 1-2gm sample and dissolve in 50ml water\n
+Add 4-5 drops of 10% Potassium Chromate indicator\n
+Fill the burette with 0.028N Silver nitrate solution\n
+Titrate the sample against 0.028N Silver nitrate until the color change yellow to Brick red\n
+Note the reading and calculate the strength\n\n
+
+Titrate with Silver Nitrate (AgNO3)\n
+Indicator: Potassium Chromate (K2CrO4)\n
+Color change: yellow to brick red\n
+Reaction: NaCl(aq)+AgNO3(aq)= NaNo3(aq)+AgCl(s)\n
+Purity % Of NaCl= \n
+        Purity % Of NaCl= (B.R X N Of AgNO_(3 ) X 0.05844)/(Sample Weight)  X 100
+</string>
+    <string name="waterheardness"><h4><b><u>HARDNESS OF WATER BY EDTA TITRATION</u></b></h4>\n\n
+Introduction\n
+The ions involved in water hardness, i.e. Ca2+(aq) and Mg2+(aq), can be determined by titration with a chelating agent,\n
+        ethylenediaminetetraacetic acid (EDTA), \n
+        usually in the form of disodium salt (H2Y2-). The titration reaction is:\n\n
+Ca2+(aq) + H2Y2-(aq) ⎯⎯→ CaY2-(aq) + 2H+(aq)\n
+      Eriochrome Black T is commonly used as indicator for the above titration. \n
+        At pH10, Ca2+(aq) ion first complexes with the indicator as CaIn+(aq) which is wine red. \n
+        As the stronger ligand EDTA is added, the CaIn+(aq) complex is replaced by the CaY2-(aq) complex \n
+        which is blue. The end point of titration is indicated by a sharp colour change from wine red to blue.\n\n
+Titration using Eriochrome Black T as indicator determines total hardness due\n
+        to Ca2+(aq) and Mg2+(aq) ions. Hardness due to Ca2+(aq) ion is determined by a separate\n
+        titration at a higher pH, by adding NaOH solution to precipitate Mg(OH)2(s),\n
+        using hydroxynaphthol blue as indicator.\n
+Materials and Apparatus\n
+50% w/v NaOH solution (50 g in 100 cm3 solution)\n
+Eriochrome Black T indicator\n
+pH 10 NH3-NH4Cl buffer,\n
+Hydroxynaphthol blue indicator,\n
+0.01 M EDTA (disodium salt)\n
+water apparatus required for titration,\n
+Measuring cylinder.\n\n
+Procedures\n
+Part A: Determination of total hardness\n
+1. Pipette 50 cm3 mineral water into a conical flask.\n
+2. Add 2 cm3 buffer solution followed by 3 drops of Eriochrome Black T indicator
+solution.\n
+3. Titrate with 0.01 M EDTA until the solution turns from wine red to sky blue with no hint of red (save the solution for colour comparison).\m
+4. Repeat the titration to obtain two concordant results.\n\n
+
+Hardness= X  X \n
+
+Part B: Determination of concentration of Ca2+(aq) ions\n
+1.  Pipette 50 cm3 of mineral water into a conical flask.\n
+2. Add 30 drops of 50% w/v NaOH solution, swirl the solution and wait for a
+couple of minutes to completely precipitate the magnesium ions as Mg(OH)2(s).\n
+3. Add a pinch of hydroxynaphthol blue (exact amount to be decided by the\n
+intensity of the resulting coloured solution) and titrate with 0.01 M EDTA until it\n
+changes to sky blue (save the solution for colour comparison).\n
+4. Repeat the titration to obtain two concordant results.\n\n
+
+Hardness= X  X \n
+
+a. Total hardness as CaCO3, obtained using the EDTA titration \n
+b. Mg hardness as CaCO3 = total hardness – calcium hardness \n
+c. Mg2+ = (magnesium hardness as CaCO3) x (24 g Mg2+ / 100 g CaCO3).\n\n
+
+Buffer solution preparation:\n
+measure 50ml distilled water Procedures\n
+Part A: Determination of total hardness\n
+1. Pipette 50 cm3 mineral water into a conical flask.\n
+2. Add 2 cm3 buffer solution followed by 3 drops of Eriochrome Black T indicator\n
+solution.\n
+3. Titrate with 0.01 M EDTA until the solution turns from wine red to sky blue with no hint of red (save the solution for colour comparison).\n
+4. Repeat the titration to obtain two concordant results.\n\n
+
+Hardness= X  X \n
+
+Part B: Determination of concentration of Ca2+(aq) ions\n
+1.  Pipette 50 cm3 of mineral water into a conical flask.\n
+2. Add 30 drops of 50% w/v NaOH solution, swirl the solution and wait for a\n
+couple of minutes to completely precipitate the magnesium ions as Mg(OH)2(s).\n
+3. Add a pinch of hydroxynaphthol blue (exact amount to be decided by the\n
+intensity of the resulting coloured solution) and titrate with 0.01 M EDTA until it\n
+changes to sky blue (save the solution for colour comparison).\n
+4. Repeat the titration to obtain two concordant results.\n\n
+
+Hardness= X  X \n
+
+a. Total hardness as CaCO3, obtained using the EDTA titration \n
+b. Mg hardness as CaCO3 = total hardness – calcium hardness \n
+c. Mg2+ = (magnesium hardness as CaCO3) x (24 g Mg2+ / 100 g CaCO3).\n\n
+
+Buffer solution preparation:\n
+measure 50ml distilled water &amp;b transfer it in a beaker\n
+Weight 1.179 mg EDTA &amp; transfer the contents to the beaker having 50ml of distilled  water and dissolved thoroughly.\n
+Weight 16.9 g of ammonium chloride &amp; add it to the content of the beaker. Dissolved thoroughly.\n
+Weight 780 mg of Magnesium sulphate and transfer it in to the beaker.\n
+Measure 143 ml of ammonium hydroxide solution and add it to the contents in the beaker.\n
+Make the volume up to 250 ml mark by adding distilled water. \n
+**This solution is used to maintain the PH of water sample between 9 &amp; 10.**\n
+&amp;b transfer it in a beaker\n
+Weight 1.179 mg EDTA &amp; transfer the contents to the beaker having 50ml of distilled  water and dissolved thoroughly.\n
+Weight 16.9 g of ammonium chloride &amp; add it to the content of the beaker. Dissolved thoroughly.\n
+Weight 780 mg of Magnesium sulphate and transfer it in to the beaker.\n
+Measure 143 ml of ammonium hydroxide solution and add it to the contents in the beaker.\n
+Make the volume up to 250 ml mark by adding distilled water. \n
+**This solution is used to maintain the PH of water sample between 9 &amp; 10.**\n
+
+</string>
+
+    <string name="formaldihide"><h4><b><u>Formaldehyde conten test
+        Flow Chart of Formaldehyde Test :</u></b></h4>
+Take 1 gm fabric and make 10 to 12 piece of that fabric.\n
+↓\n
+100 ml distilled water take in conical flux\n
+↓\n
+Temp 40 0 C, Time 1 hr\n
+↓\n
+Water bath\n
+↓\n
+After 5 min……20to 30s\n
+↓\n
+Shaking\n
+↓\n
+Cold down at room temp at 30 min\n
+↓\n
+Filtering by filter paper\n
+↓\n
+Only 5ml solution is taken in test tube and also take 5ml nushreagent in that test tube\n
+↓\n
+Another test tube take 5ml distil water and 5ml nushreagent\n
+↓\n
+Two test tube take in water bath 40 0 C at 30 min\n
+↓\n
+Cold down at 30min at room temp\n
+↓\n
+m/c open\n
+↓\n
+liquid take in spectroscopy cell\n
+↓\n
+Note: std range 50ppm\n\n
+
+        <b>Nashreagent preparation:</b>\n
+Ammonium acetate :150 gm\n
+Acetic acid  :3 ml\n
+Acitile aceton :2ml\n
+Take of 1 liter volumetric flux and rest of distilled water.\n
+Note : total solution 1L\n
+All time take in dark place . Prepare those solution to use after 12hr.\n\n
+
+Formaldehyde conten test by Chromotropic acid\n\n
+
+Each cloth sample cut into 1 square cm piece and boil in 5 ml of distilled water in a test tube (1st test tube).\n
+        A few crystals of chromotropic acid add to 2 ml of 72% concentrated sulfuric acid in another test tube (2nd test tube).\n
+        The cooled supernatant of the 1st test tube add to the 2nd test tube and the mixture heat over a flame.\n
+        A red purple to violet color indicated a positive test (i.e. the presence of formaldehyde in textiles), \n
+        while its absence indicated that the cloth sample did not contain formaldehyde.\n
+        The intensity of red purple to violet color graded as 1+, 2+, or 3+.\n
+        Clothes which showed the presence of formaldehyde reassess after washing. \n
+        The textile samples rinse with detergent and water for 5 minutes and then wash with soap.\n
+        After drying reassess for formaldehyde. The intensity of red purple to violet color was note after each wash. \n
+        A decrease in the intensity of red purple to violet color indicated a decrease in the formaldehyde content after washing.\n\n
+
+Chromotropic acid\n
+Chromotropic acid has the formula is (HO)2C10H4(SO3H)2\n
+IUPAC Name: (1,8-dihydroxynaphthalene-3,6-disulfonic acid)\n
+It can be used for as a reagent in the quantitative determination of the systemic herbicide,\n
+        2,4-Dichlorophenoxyacetic acid.\n
+Chromotropic acid is also used for testing of presence of formaldehyde.\n
+The usefulness of this reagent in quantitative determination is the formation of a red colouration (peaking at 580nm wavelength)\n
+        when chromotropic acid in 75% sulfuric acid reacts with formaldehyde. The colouration is specific to this aldehyde and\n
+        is not produced from other organic species such as ketones and carboxylic acids.\n
+
+</string>
+    <string name="etpwatertest"><h4><b><u>ETP WATER TEST
+        TOTAL ALKALINITY TEST</u></b></h4>\n\n
+Required chemicals: \n
+Phenolphthalein Indicator, Methyl orange indicator, 0.02N of Sulfuric acid.  \n
+Test procedure:\n
+Take 25 ml of SAMPLE in to clean conical flask. If Sample PH > 8.0 Phenolphthalein alkalinity is present.\n
+Add 3 or 4 drops of phenolphthalein indicator. If pink color appears phenolphthalein alkalinity present.\n
+Titrate with 0.02N of SULPURIC ACID solution up to pink color changes. Note Burette reading. \n
+END POINT: Pink color disappears.\n
+Calculation:\n
+Phenolphthalein Alkalinity (PPM)  = B.R*50*0.02*1000/ Vol. of sample taken.\n
+Again added 3 or 4 drops of methyl orange indicator.\n
+Again Titrate with 0.02 N of sulfuric acid.\n
+End point is: pale orange appears(or violet)\n
+Calculation:\n
+TOTAL ALKALINITY (PPM) = Total Burette reading *0.02* 50*1000/ vol. of sample taken.\n
+Methyl orange alkalinity (PPM)= Total Alkalinity  – Phenolphthalein  Orange Alkalinity\n
+0.02 N of sulphuric acid solution preparation:   \n
+27.8 ML OF CONC sulphuric acid(98%) and dissolved 972.2ml of distilled water .\n
+        The above solution is 1 N of SULPURIC ACID solution.\n
+0.02 N of sulfuric acid solution:  Take 20 ML of 1N of sulphuric acid solution and add 980 ml of distilled water.\n</string>
+
+
+    <string name="cpbIntro">Cold Pad Batch Dyeing is one of the
+widely used semi-continuous dyeing
+process. It is mainly used in the
+dyeing of cellulosic fiber like cotton
+or viscose (knit and woven fabric)
+with reactive dyes. Now a days this
+process Widely used in our Woven
+dyeing industry and it is a
+development process for Knit dyeing
+industry in Bangladesh. It is primarily
+a cold method where the dyeing
+temperature is 20-25°C and use Cold
+to Medium Brand Reactive Dyes, and
+so it is called Cold Pad Batch (CPB)
+Dyeing. A cooling system is used for
+cooling the Dye liquid and bath also.
+Cold Pad batch dyeing is a process
+that offers some unique advantages.</string>
+    <string name="cpbreasons">\n1. Maximum color yield as
+compared to other methods.\n
+2. Less requiremernt of Energy,
+Water and Chemical since fixation
+is carried out at room
+temperature.\n
+3. Cost effective Dyeing Method.\n
+4. Good levelness of dyeing.\n
+5. Longer yardages possible to dye.\n
+6. Elimination of salt during dyeing.
+(100% Salt Free Dyeing)\n
+7. Less impact on environmental
+pollution.\n</string>
+
+    <string name="cpbCompare">(source: from
+BENINGER web, Benninger KÜSTERS
+Dyepad)
+100% Salt Free.
+\n  *Water (-75%) (low bath ratio)\n
+* Energy (-77%).\n
+* Carbon footprint (-78%).\n
+* Cost (-32%).\n</string>
+    <string name="cpbdrawbacks">Every process has some drawbacks
+and it has also:
+\n *Sometime listing problem found.\n
+*Sometime tailing problem found.\n
+*Unevenness due to uneven\n
+pretreatment\n</string>
+    <string name="cpbsuitable"> 1. 100% Cotton.\n
+2. Cotton + Spandex.\n
+3. Cotton Viscose Blend.\n
+4. 100% Viscose.\n
+5. Linen.\n
+6. Linen Cotton Blend.\n
+7. Linen Viscose Blend.\n
+8. Tensile.\n</string>
+
+    <string name="cpbprameter">\n *Machine Speed = 40-50 m/min\n
+*Padder Pressure (N/mm or Bar) L-
+M-R= 20-30-20 or 1.2-1.5-1.2\n
+*Dye Bath Level= 25 Ltr or 50 Ltr\n
+*Immersion time= 1.5 sec\n
+*Machine Utility= 5.5 KW\n
+*Pick Up %= for Cotton 55-70% &amp;
+for Viscose 85-95% or more,
+varies depend on Fabric GSM.\n</string>
+
+    <string name="cpbtypical">Here color and chemical (alkali) are
+prepared separately into separate
+tank which prevent hydrolysis of dyes
+molecule. At the time of padding both
+color and chemical liquid are mixed
+at dye bath (Temp around 20-25°C).
+Mixing ratio is Color: Chemical =4:1.
+This mixing process is done by a
+dossing pump</string>
+    <string name="cpbcolorliquid">
+\n *Leva Amber CAN  = 9.00 g/l\n
+*Leva Fast Red CA  = 0.6 g/l\n
+*Leva Blue CA      = 15.20 g/ln\
+ *Dekol 1097        = 2 g/l\n
+*Leonil EHC        = 2 g/l\n
+*Urea              =40 g/l\n</string>
+
+    <string name="cpbalkali">\nSoda Ash (Na2C03 )== 20 g/1\n
+Caustic Soda- (NaOH)=3 or 6 g/l\n\n
+
+
+(7.5ml/l or 15ml1 for 36°Be)
+dyeing.
+If we need 100 Ltr Liquid for Dyeing,
+follow the Color and Chemical ratio 4
+:1 to make Color and Chemical
+separately, and so we make 80 Ltr of
+Color and 20 Ltr of Chemical for dyeing.\n\n
+Here Dekol-1097 acts as a Leveling &amp;
+Sequestering Agent and Leonil EHC
+acts as a Wetting agent, and Urea
+used to keep the Dye bath cool and it
+acts as a Hygroscopic Agent. Here
+(Soda Ash &amp; Caustic) - Chemical
+(Alkali) is used as a Fixing agent and
+also control the pH of Dye Bath.\n</string>
+    <string name="cpbflowchart">
+\nBatcher/Plate (fabric feed)\n
+           ↓\n
+  J-Box (not Necessary)\n
+           ↓\n
+     Cooling Drums\n
+           ↓\n
+Application Dyeing in Dye Bath\n
+           ↓\n
+    Squeeze by Padder\n
+           ↓\n
+Collecting Fabric in Batcher\n
+           ↓\n
+Rotation (for Color Fixation)\n
+           ↓\n
+        Washing\n
+           ↓\n
+      Shade Check\n
+           ↓\n
+  Transfer to Finishing\n \n
+    1. Firstly the RFD (Ready for Dyeing)
+Fabric is introduced with Cooling
+Drum, it is a cooling system here
+the fabric is cooled down.\n\n
+2. Then the RFD Fabric is introduced
+with pre-mixed dye liquor at Dye
+Bath. Here Dye Bath Termp arownd
+20-25°C and so it is called Cold
+Pad Batch (CPB) Dyeing. A cooling
+system is used for cooling the Dye
+liquid and bath also.\n\n
+3. Then it is passed through Padder.
+The padder effectively forces the
+dyestuff into the fabric. In the
+stage excess dye solution is also
+removed.\n\n
+4. After removal of excess dye stuff
+the fabric is collected in Batcher.
+The batches are generally
+enclosed by plastic films. This
+prevents absorption of carbon
+dioxide and water evaporation.\n\n
+5. After removing batcher from
+dyeing machine, it is placed at
+Rotation Point. It takes around 8-
+14 hours (Time depends on
+Shade). Finally as the reaction is
+complete the fabrics are washed.\n\n
+    </string>
+
+
+    <string name="thermosui"> *100%1$ Cotton.\n
+*Cotton + Spandex.\n
+*Polyester.\n
+*CVC.\n
+*PC/TC.\n
+*Linen.\n
+*Linen Cotton Blend.\n</string>
+    <string name="thermomcspe"> *Manufacture: Monfongs Thermex/
+Monforts Monotex\n
+*Production Speed: 40-60 m/min\n
+*Padder: Kuster Dye Pad\n
+*Chambers: 3 or S (depend on
+Manufacturer)\n
+*Trough Capacity: 25-30 liters\n
+*Padder Pressure (N/mm): 20-30-20\n
+*VTG/Airing Zone: 20m of fabric\n
+*IR Temperature: Range 650°C-850°C\n
+*Liquor Change: After 3-4min\n</string>
+    <string name="thermoflow">
+Batcher/Plate (fabric feed)\n
+           ↓\n
+          J-Box\n
+           ↓\n
+       Cooling Drums\n
+           ↓\n
+         Padding\n
+           ↓\n
+Airing (Penetration/migration)\n
+           ↓\n
+      IR (Pre-Drying)\n
+           ↓\n
+Drying &amp; Curing (Thermo-fixation)\n
+           ↓\n
+       Cooling Drums\n
+           ↓\n
+          J-Box\n
+           ↓\n
+Batcher/Plate (fabric out)\n</string>
+
+    <string name="thermojbox">
+• It stores the fabric.\n
+• It is J-shaped metal holder for fabric.\n</string>
+    <string name="thermogide"> • These rollers are steel rollers used to
+guide the fabric and to provide
+tension which prevents the crease
+formation.\n
+• Guider is rubber coated roller is
+placed at edge of fabric to prevent
+and control the width of fabric.\n</string>
+    <string name="thermocom"> These are used to provide tension to the
+fabric. If the fabric loosens from any
+roller during the process, this moves up
+and down to maintain the tension.</string>
+    <string name="thermodyepadder"> *The padder is mechanical mean
+of applying dye on fabric.\n\n
+The padding operation consist of two
+parts:\n
+*First immersion of the fabric in
+dye-liquor in a trough and\n
+*Second passing the fabric between
+the two padder to force the dye-
+liquor into the fabric and also to
+squeeze excess amount liquor
+back to the trough.\n\n
+Padder is the most sensitive
+Components dyeing system as any
+fault developed at the padding stage
+will not be corrected later.\n</string>
+    <string name="thermonip">
+• Nip rolls must be clean.\n
+• The hardness for woven is 70-80
+degree shore and 50-60 shore for
+knitted fabric.\n
+• The padder roll has a steel mandrel
+that is covered with hard rubber.\n
+• Both the rollers should have exactly
+the same hardness otherwise there
+will be color difference in the face
+and back side of the fabric.\n
+    </string>
+    <string name="thermopick">
+The pickup% for the different fabric are\n
+• Cotton = 55-70%\n
+• P/C (50:50) = 45-50%\n
+• Viscose = 85-95%\n
+• Linen= 55-70%\n</string>
+    <string name="thermopad">
+• The trough is placed below and in
+front of the padder.\n\n
+• It is U-shaped box with one or more
+free-running guide rollers of about
+10cm diameter each.\n\n
+• The volume in the pad trough should
+be relatively small 20-50 liters
+Resulting in shade difference caused
+by variations in immersion time and
+pick up.\n\n
+• The pad liquor trnover time should
+be as fast as possible less than
+Sminutes.\n\n
+• Immersion time: Should be 1-2s\n\n
+    </string>
+    <string name="thermoairing">
+• Airing zone is used because
+sometimes the light GSM fabric has
+face and back variation so we used
+airing zone.\n\n
+• The airing zone is placed between the
+padding and drying for better
+swelling and penetration of the dye\n\n
+. These rollers are Teflon coated to
+avoid stains on the fabric due to
+rusting and stickiness of chemical.\n\n</string>
+    <string name="thermoinfra">
+• The intermediate drying phase.
+Temperature Range 650°C-850° C.\n\n
+• To get even and uniform results
+especially for medium and deep
+shades.\n\n
+• Dye molecule tend to diffuse with
+water molecule as they migrate from
+the wetter towards the drier part if
+the fabric.\n\n
+• Migration stops when only bonded
+water molecules and moisture
+content of the fabric dropped below
+30%\n\n
+    </string>
+    <string name="thermopre">
+• Gas or electrically heated.\n\n
+• The emitted IR wavelength should
+correspond maximum absorption
+value of water (3µm).\n\n
+• Equilibrium setting uptime.\n\n
+• Air passage before pre-drying (dye
+penetration).\n\n
+• Cleaning of guide rollers\n\n</string>
+    <string name="thermofix">
+        In the thermo fxation (also incorrectly
+called thermosol) process of dyeing, The
+cotton fabric dyeing temperature range
+100°C-160°C which is depend on the
+process of dyeing. For synthetic fabric the
+disperse dyes diffuse into the polyester
+fibers on bringing the dye-padded fabrics
+to temperature of 200-280°C for a contact
+time of 60-30 seconds because the
+polyester has the compact structure and
+having 85% of crystalline area so at high
+temperature the pores of the fiber are
+open which allows to enter the dye in the
+highly crystalline area.\n\n
+    </string>
+    <string name="thermodry">
+• There are three or five drying
+chambers (depend on manufacturer).\n\n
+• There is water blower which sucks
+air from the atmosphere and
+circulates that air by centrifugal
+action in whole chamber.\n\n
+• There is a gauge on each dryer which
+is showing the balance of air inside
+the chamber.\n\n</string>
+    <string name="thermocuring">
+• There are total two curing chamber
+i.e. used when dyeing with polyester
+or with disperse otherwise as a
+drying chamber.</string>
+    <string name="thermocooling">
+• These are provided at the inlet and
+outlet side of the thermosol machine.\n\n
+• These are hollow steel drums and
+used to maintain the temperature of
+the whole lot water filled inside the
+drum to cool it.\n\n
+    </string>
+
+
+    <string name="oneHundred1">1.H2O2(50%)=40-50 \n 2.NaOH(40°Be)=30-40  \n 3.Stabilizer=6-8  \n 4.Detergent/wetting=4-5 \n 5.Sequestering agent=1-2\n  </string>
+    <string name="oneHundred2">1.H2O2(50%)=35-45 \n 2.NaOH(40°Be)=25-35  \n 3.Stabilizer=5-6  \n 4.Detergent/wetting=4-8 \n 5.Sequestering agent=1-2\n</string>
+    <string name="oneHundred31">1.H2O2(50%)=40-45\n 2.NaOH(40°Be)=40-45  \n 3.Stabilizer=6-7  \n 4.Detergent/wetting=4-8 \n 5.Sequestering agent=1-2\n</string>
+    <string name="oneHundred32">1.H2O2(50%)=40-45\n 2.NaOH(40Be)=30-35   \n 3.Stabilizer=8-10 \n 4.Detergent/wetting=7-8 \n 5.Sequestering agent=1-2\n</string>
+    <string name="twoHundred60">1.H2O2(50%)=40-45\n 2.NaOH(40°Be)=40-45  \n 3.Stabilizer=6-7  \n 4.Detergent/wetting=4-6 \n 5.Sequestering agent=1-2\n</string>
+    <string name="twoHundred61">1.H2O2(50%)=40-45\n 2.NaOH(40°Be)=30-35  \n 3.Stabilizer=8-10 \n 4.Detergent/wetting=8-10\n 5.Sequestering agent=1-2\n</string>
+
+    <string name="pretreatment">Pretreatment</string>
+    <string name="printing">Printing</string>
+    <string name="finishing">Finishing</string>
+    <string name="inspection">Quality</string>
+    <string name="lab">Lab</string>
+    <string name="lock_activity">Admin Panel</string>
+    <string name="textile_learn">Textile Learn</string>
+    <string name="weaving">weaving</string>
+    <string name="kniting">Knitting</string>
+    <string name="knit_dyeing">Knit Dyeing</string>
+    <string name="garments">Garments</string>
+    <string name="pantone_book">Pantone Book</string>
+    <string name="_000">#000</string>
+    <string name="rgb">RGB(0,0,0)</string>
+    <string name="gsm_amp_glm_calculator"><![CDATA[GSM&GLM Calculator]]></string>
+    <string name="epi">EPI</string>
+    <string name="inch">Inch</string>
+    <string name="warp_count">Warp count</string>
+    <string name="ne">Ne</string>
+    <string name="ppi">PPI</string>
+    <string name="weft_count">Weft count</string>
+    <string name="width">Width</string>
+    <string name="your_detail">Your Detail</string>
+    <string name="gsm">GSM :</string>
+    <string name="dot">.......?</string>
+    <string name="glm">GLM :</string>
+    <string name="result">Result</string>
+    <string name="reset">Reset</string>
+    <string name="bleaching_recipe">Bleaching Recipe</string>
+    <string name="enter_fabrics_gsm">Enter Fabrics GSM</string>
+    <string name="approximate_recipe">Approximate Recipe</string>
+    <string name="chemical_composition_ml_kg_of_fabrics">Chemical composition(ml/kg of fabrics)</string>
+    <string name="with_conveyer">With Conveyer</string>
+    <string name="without_conveyer">Without Conveyer</string>
+    <string name="pickup">PickUp % :</string>
+    <string name="weight">weight</string>
+    <string name="dry_weight">Dry Weight</string>
+    <string name="wet_weight">Wet weight</string>
+    <string name="pickup_percentage">PickUp Percentage</string>
+    <string name="naoh_baume">NaOH-Baume`</string>
+    <string name="caustic_baume">Caustic Baume`</string>
+    <string name="be">°Be</string>
+    <string name="gram_per_liter">Approximate Gram per liter::</string>
+    <string name="g_l">.......g/l........?</string>
+    <string name="density">Density::</string>
+    <string name="pplabon457_gmail_com">Caustic Baume Calculation\nInventor by\nMd.Al-Amin Sarker\npplabon457@gmail.com</string>
+    <string name="mercerizing_m_c_caustic_use">Mercerizing m/c Caustic Use</string>
+    <string name="caustic_flaks">Caustic Flaks</string>
+    <string name="kg">Kg</string>
+    <string name="total_fabrics_mtr">Total Fabrics MTR=</string>
+    <string name="_1_grei"><![CDATA[1.Greige Analyais:\n\n*GSM\n*Count\n*Ends/Pick\n*Width\n*Tear Strength\n\n2.Singeing & Desizing:\n\n*Width\n*PH\n*Temperature\n*Hairy Fiber\n*Pick Up%\n\n3.Scouring & Bleaching:\n\n*PH=6–8\n*Tegwa/Size=6–7\n*Absorbancy(Wicking)=2.5–3.5 cm\n*Whiteness=white:>75,Dyed:>60\n*Tear Strength\n\n4.Mercerizing:\n\n*PH=6.5-7.5\n*Tegwa=7-8\n*Absorbancy=2.5-3.5 cm\n*Whiteness=white:>75,Dyed:>60\n\n5.Seam:\n\n*wp-5263=wt-4721\n*wp-11.69=wt-9.97]]></string>
+    <string name="you_can_quality_check">You Can Quality Check</string>
+    <string name="titration_procedure_for_h2o2">Titration Procedure For H2O2</string>
+    <string name="titration_procedure_for_naoh">Titration Procedure For NaOH</string>
+    <string name="pretreatment_chemical_consumption">Pretreatment Chemical Consumption</string>
+    <string name="singeing_amp_desizing_machine"><![CDATA[Singeing & Desizing Machine]]></string>
+    <string name="scouring_amp_bleaching_machine"><![CDATA[Scouring & Bleaching Machine]]></string>
+    <string name="mercerizing_machine">Mercerizing Machine</string>
+    <string name="desizing_chemical_consumption">Desizing Chemical Consumption</string>
+    <string name="fabrics_qty">Fabrics QTY</string>
+    <string name="mtr">MTR</string>
+    <string name="chemical_recipe">Chemical Recipe</string>
+    <string name="enzyme">Enzyme</string>
+    <string name="rate">Rate</string>
+    <string name="wetting_agent">Wetting Agent</string>
+    <string name="sequestring_agent">Sequestring Agent</string>
+    <string name="acetic_acid">Acetic Acid</string>
+    <string name="per">%</string>
+    <string name="kgd">.......kg.......?</string>
+    <string name="dari">||</string>
+    <string name="amount">....amount...?</string>
+    <string name="per_meter_cost">Per Meter Cost=</string>
+    <string name="total_cost">Total Cost=</string>
+    <string name="total_amount">.....Total Amount......?</string>
+    <string name="scouring_amp_bleaching_chemical_consumption"><![CDATA[Scouring & Bleaching Chemical Consumption]]></string>
+    <string name="hydrogen_peroxide">Hydrogen Peroxide</string>
+    <string name="ml_l">ml/l</string>
+    <string name="gravity">gravity</string>
+    <string name="caustic_soda">Caustic Soda</string>
+    <string name="stabilizer_agent">Stabilizer Agent</string>
+    <string name="caustic_soda_flaks">Caustic Soda(Flaks)=</string>
+    <string name="mercerizing_chemical_consumption">Mercerizing Chemical Consumption</string>
+    <string name="singeing_amp_desizing"><![CDATA[Singeing & Desizing]]></string>
+    <string name="m_c_prameter">(M/C Prameter)</string>
+    <string name="_1_for_all_cotton_color_fabrics">1.For All Cotton Color Fabrics</string>
+    <string name="_2_white_cotton_color_amp_special_yarn_dye_fabrics"><![CDATA[2.White Cotton Color &Special Yarn Dye Fabrics]]></string>
+    <string name="_3_for_cotton_color_peach_fabrics">3.For Cotton Color Peach Fabrics</string>
+    <string name="_4_for_all_yarn_dyed_amp_pc_cvc_fabrics"><![CDATA[4.For All Yarn dyed & pc/cvc Fabrics]]></string>
+    <string name="_5_cold_bleach_for_pc_cvc">5.Cold Bleach For pc/cvc</string>
+    <string name="_6_for_pc_cvc_yarn_dyed_peach_finish_fabrics">6.For PC/CVC yarn dyed peach finish fabrics</string>
+    <string name="_7_cold_bleach_for_bull_twill">7.Cold Bleach for Bull Twill</string>
+    <string name="_8_important_prameter">8.Important prameter for various</string>
+    <string name="m_c_setup_parameter">M/C Setup Parameter</string>
+    <string name="actual_parameter_range">Actual Parameter Range</string>
+    <string name="m_c_set_value_m_c_1">M/C Set Value m/c-1</string>
+    <string name="m_c_set_value_m_c_2">M/C Set Value m/c-2</string>
+    <string name="tamperature">Tamperature</string>
+    <string name="ph_or_litmuspaper">PH or Litmuspaper</string>
+    <string name="_6_5">6.5</string>
+    <string name="chemical_level">Chemical Level</string>
+    <string name="_700_1400_l">(700–1400)L</string>
+    <string name="_750_800_l">(750–800)L</string>
+    <string name="_1000_2000_l">(1000–2000)L</string>
+    <string name="reserve_chemical">Reserve Chemical</string>
+    <string name="_1000_l">(1000)L</string>
+    <string name="fabric_position">Fabric Position</string>
+    <string name="face_or_back">Face Or Back</string>
+    <string name="face">Face</string>
+    <string name="a_frame_position">A-Frame Position</string>
+    <string name="set_nicely">Set Nicely</string>
+    <string name="speed_flame_intensity_burner_position_padder_pressure_reference_are_given_in_parameter_set_value_table">Speed,Flame Intensity,Burner Position,Padder Pressure,Reference are given in parameter set value table</string>
+    <string name="amount_of_dye">Amount Of Dye</string>
+    <string name="weight_of_the_fabric_in_gram">Weight of the fabric in gram</string>
+    <string name="gm">gm</string>
+    <string name="shade_percentage">Shade Percentage</string>
+    <string name="percentage_of_stock_solution">Percentage of Stock Solution</string>
+    <string name="gram_per_liquor_required">Gram per liquor required</string>
+    <string name="liquor_ratio">Liquor Ratio</string>
+    <string name="lab_test">Lab Test</string>
+    <string name="rgb_percent">RGB Percent:</string>
+    <string name="ryb_percent">RYB Percent:</string>
+    <string name="apps_developer">Apps Developer</string>
+    <string name="md_al_amin_sarker_plabon">Md.Al-Amin Sarker(Plabon)</string>
+    <string name="about_this_apps">About This Apps</string>
+    <string name="you_can_call_me">You Can Call Me</string>
+    <string name="email">Email</string>
+    <string name="youtube_channel">Youtube Channel</string>
+    <string name="facebook">Facebook</string>
+    <string name="ac">AC</string>
+    <string name="c">C</string>
+    <string name="b1">(</string>
+    <string name="b2">)</string>
+    <string name="sin">sin</string>
+    <string name="cos">cos</string>
+    <string name="tan">tan</string>
+    <string name="log">log</string>
+    <string name="ln">ln</string>
+    <string name="x">x!</string>
+    <string name="x2">x²</string>
+    <string name="root">√</string>
+    <string name="_1_x">1/x</string>
+    <string name="di">÷</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="mu">×</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="mi">-</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="pl">+</string>
+    <string name="pi">π</string>
+    <string name="_0">0</string>
+    <string name="fs">.</string>
+    <string name="eq">=</string>
+    <string name="production_entry">Production Entry</string>
+    <string name="order_style_add">Order/Style Add</string>
+    <string name="order_view_delete">Order View/Delete</string>
+    <string name="buyer_add">Buyer Add</string>
+    <string name="buyer_view_delete">Buyer View/Delete</string>
+    <string name="total_add">Total Add</string>
+    <string name="total_view_update">Total View/Update</string>
+    <string name="construction_add">Construction Add</string>
+    <string name="construction_view_delete">Construction View/Delete</string>
+    <string name="process_add">Process Add</string>
+    <string name="process_view_delete">Process View/Delete</string>
+    <string name="order_create">Order Create</string>
+    <string name="order_no">Order No :</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="cencel">Cencel</string>
+    <string name="buyer_name_add">Buyer Name Add</string>
+    <string name="buyer_name">Buyer Name :</string>
+    <string name="em" />
+    <string name="now_you_can_save_all_data">Now You Can Save All Data</string>
+    <string name="select_date">Select Date:</string>
+    <string name="jan_01_2020">JAN 01 2020</string>
+    <string name="construction">Construction</string>
+    <string name="quantity">Quantity</string>
+    <string name="process_name">Process Name</string>
+    <string name="fabric_construction_add">Fabric Construction Add</string>
+    <string name="type_of_process">Type Of Process</string>
+
+    <string-array name="number">
+        <item>Meter</item>
+        <item>Yards</item>
+        <item>Kg</item>
+        <item>Metric Tons</item>
+        <item>Pounds</item>
+        <item>Ounces</item>
+        <item>Grams</item>
+
+    </string-array>
+
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="process">Process :</string>
+    <string name="metric_convertar">Metric Convertar</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="convert">Convert</string>
+    <string name="enter_temperature">Enter Temperature</string>
+    <string name="temperature_convert">Temperature Convert</string>
+    <string name="length_convert">Length Convert</string>
+    <string name="enter_length">Enter Length</string>
+    <string name="weight_convert">Weight Convert</string>
+    <string name="enter_weight">Enter Weight</string>
+    <string name="time_convert">Time Convert</string>
+    <string name="enter_time">Enter Time</string>
+    <string name="yarn_count_convert">Yarn Count Convert</string>
+    <string name="enter_count">Enter Count</string>
+    <string name="update">Update</string>
+    <string name="serial_no">Serial No :</string>
+    <string name="date">Date :</string>
+    <string name="number">Number</string>
+    <string name="head_line">Head Line</string>
+    <string name="test">test</string>
+    <string name="description">Description</string>
+    <string name="submit">submit</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="attempts_remaining_5">attempts remaining 5</string>
+    <string name="only_use_for_authorized_person">Only use for authorized person</string>
+    <string name="name">Name</string>
+    <string name="pplabon457gmail_com1">pplabon457gmail.com</string>
+    <string name="close">Close</string>
+    <string name="md_al_amin_sarker">MD.AL-AMIN SARKER</string>
+    <string name="home">Home</string>
+    <string name="about">About</string>
+    <string name="calculator">Calculator</string>
+    <string name="version_1_0">Version:1.0</string>
+    <string name="apps_update">Apps Update</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="others_apps">Others Apps</string>
+    <string name="share">Share</string>
+    <string name="spinning">Spinning</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="woven_dyeing">Woven Dyeing</string>
+    <string name="convertar">convertar</string>
+    <string name="_70_80_c">(70-80)°C</string>
+    <string name="_70_85_c">(70-85)°C</string>
+    <string name="_6_5_7">6.5-7</string>
+    <string name="_1000_1200_l">1000-1200 L</string>
+    <string name="burner_position">Burner Position</string>
+    <string name="_1_2_3">1,2,3</string>
+    <string name="_3rd">3rd</string>
+    <string name="mm">---</string>
+    <string name="flame_intensity">Flame Intensity</string>
+    <string name="_1_20_m_bar">(1-20)m.bar</string>
+    <string name="_11_13_m_bar">(11-13)m.bar</string>
+    <string name="_11_15_m_bar">(11-15)m.bar</string>
+    <string name="pressure">Pressure</string>
+    <string name="_1_3_1_5_bar">(1.3-1.5)bar</string>
+    <string name="_1_2_2_bar">(1.2-2)bar</string>
+    <string name="_2_2_5_bar">(2-2.5)bar</string>
+    <string name="barner">Barner</string>
+    <string name="_1_or_2">1 or 2</string>
+    <string name="_2t">2</string>
+    <string name="dye">Dye</string>
+    <string name="reactive">Reactive</string>
+    <string name="notification">Notification</string>
+    <string name="ratior">The equation can be written as considering R as a constant as it shows in the table</string>
+    <string name="singlejerseyr">The value of R for single jersey is 1.25-1.30 and for 1*1 Rib is about 1.00 and for others fabric type\'s valu of R can be calculated.</string>
+    <string name="cpitable">This equation can be used to have idea of CPI or to determine no of feeder/course.</string>
+
+
+</resources>

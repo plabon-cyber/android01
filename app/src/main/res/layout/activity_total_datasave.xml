@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_launcher_background"
+    tools:context=".TotalDatasave">
+
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/teal_200"
+        android:gravity="center"
+        android:text="@string/now_you_can_save_all_data"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/t"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:id="@+id/li1"
+                    android:layout_width="344dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/select_date"
+                        android:textColor="@color/btnRed"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+                    <Button
+                        android:id="@+id/datePickerButton"
+                        style="?android:spinnerStyle"
+                        android:layout_width="236dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:onClick="openDatePicker"
+                        android:text="@string/jan_01_2020"
+                        android:textColor="@color/black"
+                        tools:ignore="OnClick,UsingOnClickInXml" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/li2"
+                    android:layout_width="344dp"
+                    android:layout_height="35dp"
+                    android:layout_below="@+id/li1"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="left|center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/order_no"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textColor="#FF0000"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+                    <Spinner
+                        android:id="@+id/sp1"
+                        android:layout_width="268dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/li3"
+                    android:layout_width="344dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/li2"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="@string/buyer_name"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textColor="#FF0000"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+                    <Spinner
+                        android:id="@+id/sp2"
+                        android:layout_width="249dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/li4"
+                    android:layout_width="344dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/li3"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="@string/construction"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textColor="#FF0000"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+                    <Spinner
+                        android:id="@+id/sp3"
+                        android:layout_width="252dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/li5"
+                    android:layout_width="344dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/li4"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="@string/width"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textColor="#FF0000"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+                    <EditText
+                        android:id="@+id/width"
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="2dp"
+                        android:ems="10"
+                        android:gravity="center_horizontal"
+                        android:importantForAutofill="no"
+                        android:inputType="numberDecimal"
+                        android:textAlignment="center"
+                        android:textColor="#FF0000"
+                        android:textStyle="bold"
+                        tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/li6"
+                    android:layout_width="344dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/li5"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="91dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/quantity"
+                        android:textAllCaps="false"
+                        android:textColor="#FF0000"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+                    <EditText
+                        android:id="@+id/qty"
+                        android:layout_width="118dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:importantForAutofill="no"
+                        android:inputType="numberDecimal"
+                        android:textAlignment="center"
+                        tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                    <Spinner
+                        android:id="@+id/spmy"
+                        android:layout_width="128dp"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="5dp"
+                        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/li7"
+                    android:layout_width="344dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/li6"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="@string/process_name"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textColor="#FF0000"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+                    <Spinner
+                        android:id="@+id/sp4"
+                        android:layout_width="242dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="344dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/li7"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+
+                    <Button
+                        android:id="@+id/save"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="30dp"
+                        android:background="@color/teal_200"
+                        android:gravity="center"
+                        android:text="@string/save"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+                    <Button
+                        android:id="@+id/cancel"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="30dp"
+                        android:background="#FFD600"
+                        android:gravity="center"
+                        android:text="@string/cancel"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+        </ScrollView>
+    </HorizontalScrollView>
+</RelativeLayout>

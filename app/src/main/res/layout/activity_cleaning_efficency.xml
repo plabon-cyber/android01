@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#03A9F4"
+    android:gravity="center"
+    tools:context=".Cleaning_Efficency">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Cleaning Efficency"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/texone"
+        android:background="#FFFFFF"
+        android:textColor="#07600B"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/texone"
+        android:layout_marginTop="2dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginStart="10dp">
+                <LinearLayout
+                    android:id="@+id/li1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="40dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Trash in Mixing :"
+                        android:textStyle="bold"
+                        android:textColor="#07600B"
+                        android:layout_marginStart="2dp"/>
+
+                    <EditText
+                        android:id="@+id/edit01ID"
+                        android:layout_width="75dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:gravity="center"
+                        android:hint=""
+                        android:importantForAutofill="no"
+                        android:inputType="numberDecimal"
+                        android:background="#8EA19D"
+                        android:textColor="#ffffff"
+                        android:textColorHint="#78909C"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/li2"
+                    android:layout_below="@id/li1"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="2dp"
+                        android:textStyle="bold"
+                        android:text="Trash in lap :"
+                        android:textColor="#07600B" />
+
+
+                    <EditText
+                        android:id="@+id/edit02ID"
+                        android:layout_width="67dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="20dp"
+                        android:gravity="center"
+                        android:hint=""
+                        android:importantForAutofill="no"
+                        android:inputType="numberDecimal"
+                        android:background="#8EA19D"
+                        android:textColor="#ffffff"
+                        android:textColorHint="#78909C"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/li3"
+                    android:layout_below="@+id/li2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/your_detail"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:textColor="#FF1B1B"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/li4"
+                    android:layout_below="@+id/li3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:padding="5dp"
+                    android:gravity="left">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cleaning Efficency Percent="
+                        android:textColor="#ffffff"
+                        android:layout_marginStart="5dp"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+                    <TextView
+                        android:id="@+id/tex01ID"
+                        android:layout_width="149dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_below="@+id/li4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/BTNID"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="106dp"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/checkbox_off_background"
+                        android:text="@string/result"
+                        android:textColor="#099100"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+                    <Button
+                        android:id="@+id/btn02ID"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="110dp"
+                        android:background="@android:drawable/checkbox_off_background"
+                        android:text="@string/reset"
+                        android:textColor="#FF0000"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+    </HorizontalScrollView>
+</RelativeLayout>
+

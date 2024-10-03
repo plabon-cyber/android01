@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "596585827597",
+    "project_id": "textile-focus-21bbf",
+    "storage_bucket": "textile-focus-21bbf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596585827597:android:50b58e0fb13b440f4df444",
+        "android_client_info": {
+          "package_name": "com.atozmediaapk.textilefocus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj6lUWkAw7J93cLY4_zDTaNde_3zsxwrg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

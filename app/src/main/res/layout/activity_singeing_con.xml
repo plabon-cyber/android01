@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="#03A9F4"
+    tools:context=".SingeingCon">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/desizing_chemical_consumption"
+        android:textStyle="bold"
+        android:id="@+id/texone"
+        android:background="#FFFFFF"
+        android:textColor="#07600B"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/texone"
+        android:layout_marginTop="2dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#B8CFBD"
+                    android:gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="60dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/epi"
+                        android:textStyle="bold"
+                        android:layout_marginStart="20dp"
+                        android:textColor="#07600B" />
+
+                    <EditText
+                        android:id="@+id/edit03ID"
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="30dp"
+                        android:background="#F6FBFA"
+                        android:gravity="center"
+                        android:hint="@string/inch"
+                        android:importantForAutofill="no"
+                        android:inputType="numberDecimal"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck,TextContrastCheck" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:textStyle="bold"
+                        android:text="@string/warp_count"
+                        android:textColor="#07600B" />
+
+
+                    <EditText
+                        android:id="@+id/edit01ID"
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="#F6FBFA"
+                        android:gravity="center"
+                        android:hint="@string/ne"
+                        android:importantForAutofill="no"
+                        android:inputType="numberDecimal"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck,TextContrastCheck" />
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#B8CFBD"
+                    android:gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="120dp">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="@string/ppi"
+                        android:layout_marginStart="20dp"
+                        android:textColor="#07600B" />
+
+
+                    <EditText
+                        android:id="@+id/edit04ID"
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="25dp"
+                        android:background="#F6FBFA"
+                        android:gravity="center"
+                        android:hint="@string/inch"
+                        android:inputType="numberDecimal"
+                        android:textColor="#020500"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck,TextContrastCheck"
+                        android:importantForAutofill="no" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:textStyle="bold"
+                        android:text="@string/weft_count"
+                        android:textColor="#07600B" />
+
+
+                    <EditText
+                        android:id="@+id/edit02ID"
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="#F6FBFA"
+                        android:gravity="center"
+                        android:hint="@string/ne"
+                        android:importantForAutofill="no"
+                        android:inputType="numberDecimal"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="180dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:background="#B8CFBD"
+                        android:text="@string/width"
+                        android:textColor="#07600B"/>
+
+
+                    <EditText
+                        android:id="@+id/edit05ID"
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="10dp"
+                        android:background="#F6FBFA"
+                        android:gravity="center"
+                        android:hint="@string/inch"
+                        android:importantForAutofill="no"
+                        android:inputType="numberDecimal"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:background="#B8CFBD"
+                        android:text="@string/fabrics_qty"
+                        android:layout_marginStart="5dp"
+                        android:textColor="#07600B" />
+
+
+                    <EditText
+                        android:id="@+id/fabricID"
+                        android:layout_width="132dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="10dp"
+                        android:background="#F6FBFA"
+                        android:gravity="center"
+                        android:hint="@string/mtr"
+                        android:importantForAutofill="no"
+                        android:inputType="numberDecimal"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="#8783FA"
+                    android:layout_marginTop="225dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chemical_recipe"
+                        android:textColor="#27E6F8"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="270dp"
+                    android:layout_marginEnd="6dp">
+
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/enzyme"
+                        android:textColor="#27E6F8"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+
+                    <EditText
+                        android:id="@+id/enzID"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:background="#F6FBFA"
+                        android:gravity="center"
+                        android:hint="@string/g_l"
+                        android:importantForAutofill="no"
+                        android:inputType="numberDecimal"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck,TextContrastCheck" />
+
+                    <EditText
+                        android:id="@+id/rate1"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="5dp"
+                        android:background="#F6FBFA"
+                        android:gravity="center"
+                        android:hint="@string/rate"
+                        android:importantForAutofill="no"
+                        android:inputType="numberDecimal"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck,TextContrastCheck" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="310dp"
+                    android:layout_marginEnd="6dp">
+
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wetting_agent"
+                        android:textColor="#27E6F8"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+
+                    <EditText
+                        android:id="@+id/wettid"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:background="#F6FBFA"
+                        android:gravity="center"
+                        android:hint="@string/g_l"
+                        android:inputType="numberDecimal"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck,TextContrastCheck"
+                        android:importantForAutofill="no" />
+
+                    <EditText
+                        android:id="@+id/rate2"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="5dp"
+                        android:background="#F6FBFA"
+                        android:gravity="center"
+                        android:hint="@string/rate"
+                        android:importantForAutofill="no"
+                        android:inputType="numberDecimal"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="350dp"
+                    android:layout_marginEnd="3dp">
+
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sequestring_agent"
+                        android:textColor="#27E6F8"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+
+                    <EditText
+                        android:id="@+id/seqid"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:background="#F6FBFA"
+                        android:gravity="center"
+                        android:hint="@string/g_l"
+                        android:importantForAutofill="no"
+                        android:inputType="numberDecimal"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+                    <EditText
+                        android:id="@+id/rate3"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="5dp"
+                        android:background="#F6FBFA"
+                        android:gravity="center"
+                        android:hint="@string/rate"
+                        android:importantForAutofill="no"
+                        android:inputType="numberDecimal"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="390dp"
+                    android:layout_marginEnd="6dp">
+
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/acetic_acid"
+                        android:textColor="#27E6F8"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+
+                    <EditText
+                        android:id="@+id/aceid"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:background="#F6FBFA"
+                        android:gravity="center"
+                        android:hint="@string/g_l"
+                        android:importantForAutofill="no"
+                        android:inputType="numberDecimal"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+                    <EditText
+                        android:id="@+id/rate4"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="5dp"
+                        android:background="#F6FBFA"
+                        android:gravity="center"
+                        android:hint="@string/rate"
+                        android:importantForAutofill="no"
+                        android:inputType="numberDecimal"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="380dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="430dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="50dp"
+                        android:text="Pickup"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+                    <EditText
+                        android:id="@+id/pickup"
+                        android:layout_width="100dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="5dp"
+                        android:background="#F6FBFA"
+                        android:gravity="center"
+                        android:hint="@string/per"
+                        android:inputType="numberDecimal"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck,TextContrastCheck"
+                        android:importantForAutofill="no" />
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="380dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="440dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/glm"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+
+                    <TextView
+                        android:id="@+id/glmid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:hint="@string/dot"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="380dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="470dp"
+                    android:gravity="center|left"
+                    tools:ignore="RtlHardcoded"
+                    android:layout_marginLeft="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/enzyme"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+
+                    <TextView
+                        android:id="@+id/en"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="75dp"
+                        android:hint="@string/kgd"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="@string/dari"
+                        android:textSize="20sp"
+                        android:textColor="#0B0B0B"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/enr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:hint="@string/amount"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="380dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="510dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wetting_agent"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+
+                    <TextView
+                        android:id="@+id/wet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="35dp"
+                        android:hint="@string/kgd"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:text="@string/dari"
+                        android:textSize="20sp"
+                        android:textColor="#0B0B0B"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/wetr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:hint="@string/amount"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="380dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="560dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sequestring_agent"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+
+                    <TextView
+                        android:id="@+id/seq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:hint="@string/kgd"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:text="@string/dari"
+                        android:textSize="20sp"
+                        android:textColor="#0B0B0B"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/seqr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:hint="@string/amount"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="380dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="610dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/acetic_acid"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+
+                    <TextView
+                        android:id="@+id/ace"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="55dp"
+                        android:hint="@string/kgd"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="18dp"
+                        android:text="@string/dari"
+                        android:textSize="20sp"
+                        android:textColor="#0B0B0B"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/acer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:hint="@string/kgd"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="380dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="650dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/per_meter_cost"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+
+                    <TextView
+                        android:id="@+id/pm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="35dp"
+                        android:hint="@string/kgd"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="380dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="690dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/total_cost"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/tc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:hint="@string/total_amount"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="399dp"
+                    android:layout_height="84dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="720dp"
+                    android:layout_marginRight="0dp"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/BTNID"
+                        android:layout_width="139dp"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/checkbox_off_background"
+                        android:text="@string/result"
+                        android:textColor="#099100"
+                        android:textStyle="bold"
+                        style="?android:attr/buttonBarButtonStyle" />
+
+                    <Button
+                        android:id="@+id/btn02ID"
+                        android:layout_width="147dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="110dp"
+                        android:background="@android:drawable/checkbox_off_background"
+                        android:text="@string/reset"
+                        android:textColor="#FF0000"
+                        android:textStyle="bold"
+                        style="?android:attr/buttonBarButtonStyle" />
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+    </HorizontalScrollView>
+</RelativeLayout>
+

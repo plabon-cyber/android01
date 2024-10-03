@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/teal_200"
+    tools:context=".LabTest">
+
+    <TextView
+        android:id="@+id/six"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="@string/lab_test"
+        android:textColor="#4EF611"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck" />
+
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/textviewid1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="@color/bg_color"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        app:colorClickableText="@color/teal_200"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"
+        app:trimLength="500"
+        app:trimMode="trimModeLength"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search"
+        android:background="@color/bg_color2"
+        android:layout_width="match_parent"
+        android:layout_height="32dp">
+
+    </androidx.appcompat.widget.SearchView>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list"
+        android:background="#B1DCFF"
+        android:divider="#4D89FF"
+        android:listSelector="#AEE4BA"
+        android:dividerHeight="2dp"
+        android:layout_marginTop="2dp" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/ic_launcher_background">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/singeing_amp_desizing"
+        android:textSize="20sp"
+        android:id="@+id/eight"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="#6E1616"
+        android:textColor="#4EF611"/>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/eight"
+        android:layout_marginTop="5dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="400dp"
+                    android:layout_height="41dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="@string/m_c_prameter"
+                    android:textColor="#0126F6"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+
+                <Button
+                    android:id="@+id/ccolor1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_1_for_all_cotton_color_fabrics"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="110dp"
+                    android:textStyle="bold"
+                    android:textColor="#035A81"
+                    android:textColorHighlight="#FF0000"
+                    android:layout_marginRight="10dp"/>
+
+
+                <Button
+                    android:id="@+id/ccolor2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_2_white_cotton_color_amp_special_yarn_dye_fabrics"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="160dp"
+                    android:textStyle="bold"
+                    android:textColor="#035A81"
+                    android:textColorHighlight="#FF0000"
+                    android:layout_marginRight="10dp"/>
+                <Button
+                    android:id="@+id/ccolor3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_3_for_cotton_color_peach_fabrics"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="220dp"
+                    android:textStyle="bold"
+                    android:textColor="#035A81"
+                    android:textColorHighlight="#FF0000"
+                    android:layout_marginRight="10dp"/>
+                <Button
+                    android:id="@+id/ccolor4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_4_for_all_yarn_dyed_amp_pc_cvc_fabrics"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="280dp"
+                    android:textStyle="bold"
+                    android:textColor="#035A81"
+                    android:textColorHighlight="#FF0000"
+                    android:layout_marginRight="10dp"/>
+
+                <Button
+                    android:id="@+id/ccolor5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_5_cold_bleach_for_pc_cvc"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="340dp"
+                    android:textStyle="bold"
+                    android:textColor="#035A81"
+                    android:textColorHighlight="#FF0000"
+                    android:layout_marginRight="10dp"/>
+
+                <Button
+                    android:id="@+id/ccolor6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="390dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/_6_for_pc_cvc_yarn_dyed_peach_finish_fabrics"
+                    android:textColor="#035A81"
+                    android:textColorHighlight="#FF0000"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/ccolor7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_7_cold_bleach_for_bull_twill"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="450dp"
+                    android:textStyle="bold"
+                    android:textColor="#035A81"
+                    android:textColorHighlight="#FF0000"
+                    android:layout_marginRight="10dp"/>
+
+                <Button
+                    android:id="@+id/ccolor8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_8_important_prameter"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="500dp"
+                    android:textStyle="bold"
+                    android:textColor="#035A81"
+                    android:textColorHighlight="#FF0000"
+                    android:layout_marginRight="10dp"/>
+            </RelativeLayout>
+        </ScrollView>
+    </HorizontalScrollView>
+</RelativeLayout>

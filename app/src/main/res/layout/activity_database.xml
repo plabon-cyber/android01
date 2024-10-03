@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/ic_launcher_background"
+    tools:context=".Database">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/li01">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF0000"
+            android:gravity="center_horizontal"
+            android:text="@string/production_entry"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#1AFB78"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/li01">
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/li02"
+                    android:layout_width="match_parent"
+                    android:layout_height="102dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:id="@+id/save1"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="157dp"
+                        android:layout_height="79dp"
+                        android:layout_margin="20dp"
+                        android:background="@color/teal_200"
+                        android:gravity="center"
+                        android:text="@string/order_style_add"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        tools:ignore="TextContrastCheck" />
+
+                    <Button
+                        android:id="@+id/cancel1"
+                        android:layout_width="157dp"
+                        android:layout_height="79dp"
+                        android:layout_margin="20dp"
+                        android:background="#FFD600"
+                        android:gravity="center"
+                        android:text="@string/order_view_delete"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textStyle="bold"
+                        style="?android:attr/buttonBarButtonStyle" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/li03"
+                    android:layout_width="match_parent"
+                    android:layout_height="143dp"
+                    android:layout_below="@+id/li02"
+                    android:background="#FFDFDF"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:id="@+id/save2"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="157dp"
+                        android:layout_height="79dp"
+                        android:layout_margin="20dp"
+                        android:background="@color/teal_200"
+                        android:gravity="center"
+                        android:text="@string/buyer_add"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+                    <Button
+                        android:id="@+id/cancel2"
+                        android:layout_width="157dp"
+                        android:layout_height="79dp"
+                        android:layout_margin="20dp"
+                        android:background="#FFD600"
+                        android:gravity="center"
+                        android:text="@string/buyer_view_delete"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textStyle="bold"
+                        style="?android:attr/buttonBarButtonStyle" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/li05"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_below="@+id/li07"
+                    android:background="#FF0000"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:id="@+id/TotalAdd"
+                        android:layout_width="157dp"
+                        android:layout_height="79dp"
+                        android:layout_margin="20dp"
+                        android:background="#AEEA00"
+                        android:gravity="center"
+                        android:text="@string/total_add"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textStyle="bold"
+                        style="?android:attr/buttonBarButtonStyle" />
+
+                    <Button
+                        android:id="@+id/TotalView"
+                        android:layout_width="157dp"
+                        android:layout_height="79dp"
+                        android:layout_margin="20dp"
+                        android:background="#AEEA00"
+                        android:gravity="center"
+                        android:text="@string/total_view_update"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textStyle="bold"
+                        style="?android:attr/buttonBarButtonStyle" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/li06"
+                    android:layout_width="match_parent"
+                    android:layout_height="145dp"
+                    android:layout_below="@+id/li03"
+                    android:layout_marginTop="-1dp"
+                    android:background="#FDAAAA"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:id="@+id/conid"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="157dp"
+                        android:layout_height="79dp"
+                        android:layout_margin="20dp"
+                        android:background="@color/teal_200"
+                        android:gravity="center"
+                        android:text="@string/construction_add"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+                    <Button
+                        android:id="@+id/convid"
+                        android:layout_width="157dp"
+                        android:layout_height="79dp"
+                        android:layout_margin="20dp"
+                        android:background="#FFD600"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:text="@string/construction_view_delete"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        style="?android:attr/buttonBarButtonStyle" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/li07"
+                    android:layout_width="match_parent"
+                    android:layout_height="154dp"
+                    android:layout_below="@+id/li06"
+                    android:background="#FD6161"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:id="@+id/mcid"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="157dp"
+                        android:layout_height="79dp"
+                        android:layout_margin="20dp"
+                        android:background="@color/teal_200"
+                        android:gravity="center"
+                        android:text="@string/process_add"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+                    <Button
+                        android:id="@+id/mcvid"
+                        android:layout_width="157dp"
+                        android:layout_height="79dp"
+                        android:layout_margin="20dp"
+                        android:background="#FFD600"
+                        android:gravity="center"
+                        android:text="@string/process_view_delete"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textStyle="bold"
+                        style="?android:attr/buttonBarButtonStyle" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_below="@+id/li05"
+                    android:background="#FF0000"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+    </HorizontalScrollView>
+</RelativeLayout>
+
+
+
+

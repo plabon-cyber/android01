@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_launcher_background"
+    android:gravity="center"
+    tools:context=".Machine">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF0000"
+            android:gravity="center_horizontal"
+            android:text="@string/type_of_process"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#1AFB78"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:gravity="center_horizontal"
+            android:padding="2dp"
+            android:text="@string/process_name"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#1548FD"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/edit1"
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:importantForAutofill="no"
+            android:inputType="textAutoCorrect"
+            android:text="@string/em"
+            android:textColor="#000000"
+            tools:ignore="LabelFor,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/save1"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@color/teal_200"
+            android:gravity="center"
+            android:text="@string/save"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="#FFD600"
+            android:textAlignment="center"
+            android:text="@string/cencel"
+            android:id="@+id/cancel1"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:gravity="center"
+            style="?android:attr/buttonBarButtonStyle" />
+
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
+

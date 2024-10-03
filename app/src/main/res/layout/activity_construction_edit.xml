@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_launcher_background"
+    android:gravity="center"
+    tools:context=".ConstructionEdit">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF0000"
+            android:gravity="center_horizontal"
+            android:text="@string/delete"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#1AFB78"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/construction"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:textStyle="bold|italic"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:textColor="#1548FD"/>
+
+        <EditText
+            android:id="@+id/order01id"
+            android:layout_width="243dp"
+            android:layout_height="wrap_content"
+            android:importantForAutofill="no"
+            android:textStyle="bold"
+            tools:ignore="LabelFor,TextFields,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/deleteid"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="#FFD600"
+            android:gravity="center"
+            android:text="@string/delete"
+            android:textAlignment="center"
+
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="#FFD600"
+            android:textAlignment="center"
+            android:text="@string/cancel"
+            android:id="@+id/cancelid"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:gravity="center"
+            style="?android:attr/buttonBarButtonStyle" />
+
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
+

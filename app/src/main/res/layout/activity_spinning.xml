@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/headid1">
+
+        <TextView
+            android:id="@+id/pretext"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textColor="#ff4500"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/preimage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/headid1"
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription" />
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/preimage"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <ru.katso.livebutton.LiveButton
+                    android:id="@+id/live1"
+                    android:layout_width="349dp"
+                    android:layout_height="68dp"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="Blow Room Production calculator"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    app:corners="40dp"
+                    app:normalHeight="6dp"
+                    app:pressedHeight="2dp"
+                    app:backgroundColor="#00C3C3"
+                    app:shadowColor="#838282" />
+                <ru.katso.livebutton.LiveButton
+                    android:id="@+id/live2"
+                    android:layout_width="349dp"
+                    android:layout_height="68dp"
+                    android:gravity="center"
+                    android:text="Carding Production Calculator"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    app:corners="40dp"
+                    app:normalHeight="6dp"
+                    app:pressedHeight="2dp"
+                    app:backgroundColor="#00C3C3"
+                    app:shadowColor="#838282"/>
+                <ru.katso.livebutton.LiveButton
+                    android:id="@+id/live3"
+                    android:layout_width="349dp"
+                    android:layout_height="68dp"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="Comber Production Calculator"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    app:corners="40dp"
+                    app:normalHeight="6dp"
+                    app:pressedHeight="2dp"
+                    app:backgroundColor="#00C3C3"
+                    app:shadowColor="#838282"/>
+                <ru.katso.livebutton.LiveButton
+                    android:id="@+id/live4"
+                    android:layout_width="349dp"
+                    android:layout_height="68dp"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="Draw Frame Production Calculator"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    app:corners="40dp"
+                    app:normalHeight="6dp"
+                    app:pressedHeight="2dp"
+                    app:backgroundColor="#00C3C3"
+                    app:shadowColor="#838282"/>
+                <ru.katso.livebutton.LiveButton
+                    android:id="@+id/live5"
+                    android:layout_width="349dp"
+                    android:layout_height="68dp"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="Speed Frame Production Calculator"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    app:corners="40dp"
+                    app:normalHeight="6dp"
+                    app:pressedHeight="2dp"
+                    app:backgroundColor="#00C3C3"
+                    app:shadowColor="#838282"/>
+
+                <ru.katso.livebutton.LiveButton
+                    android:id="@+id/live6"
+                    android:layout_width="349dp"
+                    android:layout_height="68dp"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="Next Version"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    app:corners="40dp"
+                    app:normalHeight="6dp"
+                    app:pressedHeight="2dp"
+                    app:backgroundColor="#00C3C3"
+                    app:shadowColor="#838282"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </HorizontalScrollView>
+
+
+</RelativeLayout>

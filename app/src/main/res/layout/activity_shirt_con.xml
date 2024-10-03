@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#03A9F4"
+    android:gravity="center"
+    tools:context=".Shirt_Con">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Fabric Consumption For Shirt"
+        android:textStyle="bold"
+        android:id="@+id/texone"
+        android:background="#FFFFFF"
+        android:textColor="#07600B"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/texone"
+        android:layout_marginTop="2dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginStart="10dp">
+                <LinearLayout
+                    android:id="@+id/li1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#B8CFBD"
+                    android:gravity="center"
+                    android:layout_marginTop="40dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Length Of Shirt"
+                        android:textStyle="bold"
+                        android:layout_marginStart="20dp"
+                        android:textColor="#07600B" />
+
+                    <EditText
+                        android:id="@+id/edit01ID"
+                        android:layout_width="75dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:background="#F6FBFA"
+                        android:gravity="center"
+                        android:hint="@string/inch"
+                        android:importantForAutofill="no"
+                        android:inputType="numberDecimal"
+                        android:textColor="#000000"
+                        android:textColorHint="#78909C"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:textStyle="bold"
+                        android:text="Sleeve"
+                        android:textColor="#07600B" />
+
+
+                    <EditText
+                        android:id="@+id/edit03ID"
+                        android:layout_width="67dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="#F6FBFA"
+                        android:gravity="center"
+                        android:hint="Inch"
+                        android:importantForAutofill="no"
+                        android:inputType="numberDecimal"
+                        android:textColor="#000000"
+                        android:textColorHint="#78909C"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:id="@+id/li2"
+                    android:layout_below="@id/li1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#B8CFBD"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Chest Width"
+                        android:layout_marginStart="20dp"
+                        android:textColor="#07600B" />
+
+
+                    <EditText
+                        android:id="@+id/edit02ID"
+                        android:layout_width="67dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:background="#F6FBFA"
+                        android:gravity="center"
+                        android:hint="@string/inch"
+                        android:importantForAutofill="no"
+                        android:inputType="numberDecimal"
+                        android:textColor="#020500"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:textStyle="bold"
+                        android:text="Armhole"
+                        android:textColor="#07600B" />
+
+
+                    <EditText
+                        android:id="@+id/edit04ID"
+                        android:layout_width="57dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="#F6FBFA"
+                        android:gravity="center"
+                        android:hint="Inch"
+                        android:importantForAutofill="no"
+                        android:inputType="numberDecimal"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/li3"
+                    android:layout_below="@+id/li2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Fabric Width"
+                        android:textColor="#FFFFFF"/>
+
+
+                    <EditText
+                        android:id="@+id/edit05ID"
+                        android:layout_width="49dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:background="#F6FBFA"
+                        android:gravity="center"
+                        android:hint="@string/inch"
+                        android:importantForAutofill="no"
+                        android:inputType="numberDecimal"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/li03"
+                    android:layout_below="@+id/li3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Number Of Shirt"
+                        android:textColor="#FFFFFF"/>
+
+
+                    <EditText
+                        android:id="@+id/edit06ID"
+                        android:layout_width="96dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:background="#F6FBFA"
+                        android:gravity="center"
+                        android:hint="@string/number"
+                        android:importantForAutofill="no"
+                        android:inputType="numberDecimal"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/li4"
+                    android:layout_below="@+id/li03"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#B8CFBD"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/your_detail"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:textColor="#4E614E"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/li5"
+                    android:layout_below="@+id/li4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:padding="5dp"
+                    android:gravity="left">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1 Pcs Shirt fab.Consumption="
+                        android:textColor="#ffffff"
+                        android:layout_marginStart="5dp"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+                    <TextView
+                        android:id="@+id/tex01ID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/dot"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="YDS"
+                        android:layout_marginStart="5dp"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/li6"
+                    android:layout_below="@+id/li5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:padding="5dp"
+                    android:gravity="left">
+
+                    <TextView
+                        android:id="@+id/texview2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="......"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:layout_marginStart="5dp"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="...pes shirt fabric consumption="
+                        android:textColor="#ffffff"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+                    <TextView
+                        android:id="@+id/tex02ID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:hint="@string/dot"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="YDS"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp"
+                        android:layout_marginStart="5dp"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/li07"
+                    android:layout_below="@+id/li6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Note:3% Wastage added"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        tools:ignore="TextContrastCheck" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_below="@+id/li07"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/BTNID"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="106dp"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/checkbox_off_background"
+                        android:text="@string/result"
+                        android:textColor="#099100"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+
+                    <Button
+                        android:id="@+id/btn02ID"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="110dp"
+                        android:background="@android:drawable/checkbox_off_background"
+                        android:text="@string/reset"
+                        android:textColor="#FF0000"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+    </HorizontalScrollView>
+</RelativeLayout>
+

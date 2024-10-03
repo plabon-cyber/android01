@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_launcher_background"
+    tools:context=".Various_Dyeing_Machine">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Various Dyeing Machine Prameter"
+        android:textStyle="bold"
+        android:id="@+id/texone"
+        android:background="#FFFFFF"
+        android:textColor="#07600B"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/texone"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF0303"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/list1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_launcher_background"
+                android:divider="#FFD600"
+                android:dividerHeight="2dp"
+                android:listSelector="#AEE4BA"
+                tools:ignore="NestedScrolling" />
+
+            <ListView
+                android:id="@+id/list2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/ic_launcher_background"
+                android:divider="#FFD600"
+                android:dividerHeight="1dp"
+                android:listSelector="#AEE4BA"
+                tools:ignore="NestedScrolling" />
+
+            <ListView
+                android:id="@+id/list3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/ic_launcher_background"
+                android:divider="#FFD600"
+                android:dividerHeight="1dp"
+                android:listSelector="#AEE4BA"
+                tools:ignore="NestedScrolling" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

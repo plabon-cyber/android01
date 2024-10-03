@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#03A9F4"
+    tools:context=".PreConsumption">
+
+    <TextView
+        android:id="@+id/texone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="@string/pretreatment_chemical_consumption"
+        android:textColor="#07600B"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/siid"
+        android:layout_width="231dp"
+        android:layout_height="84dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="91dp"
+        android:layout_marginLeft="91dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginRight="91dp"
+        android:background="@drawable/background_btn2"
+        android:text="@string/singeing_amp_desizing_machine"
+        android:textColor="#10F8FF"
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck">
+
+    </Button>
+
+    <Button
+        android:id="@+id/blid"
+        android:layout_width="231dp"
+        android:layout_height="84dp"
+        android:layout_below="@+id/siid"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="91dp"
+        android:layout_marginLeft="91dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginRight="91dp"
+        android:background="@drawable/background_btn2"
+        android:text="@string/scouring_amp_bleaching_machine"
+        android:textColor="#10F8FF"
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck">
+
+    </Button>
+
+    <Button
+        android:id="@+id/merid"
+        android:layout_width="wrap_content"
+        android:layout_height="84dp"
+        android:layout_below="@+id/blid"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="90.5dp"
+        android:background="@drawable/background_btn2"
+        android:text="@string/mercerizing_machine"
+        android:textColor="#10F8FF"
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck">
+
+    </Button>
+
+
+</RelativeLayout>
+

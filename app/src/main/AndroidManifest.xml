@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.AD_ID" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.send" />
+    <uses-permission android:name="com.google.android.c2dm.permission.Reciever" />
+
+    <application
+        android:name=".OfflineFirebase"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/texfreedom"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/texfreedom"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TextileFocus"
+        tools:targetApi="31">
+        <activity
+            android:name=".NotificationOpen"
+            android:exported="false" />
+        <activity
+            android:name=".RecycleViewFirebase"
+            android:exported="false" />
+        <activity
+            android:name=".ApiDetails"
+            android:exported="false" />
+        <activity
+            android:name=".ApiMain"
+            android:exported="false" />
+        <activity
+            android:name=".Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Quality_Control_Advise"
+            android:exported="false" />
+        <activity
+            android:name=".Guidelines_to_Table_Quality_Inspection"
+            android:exported="false" />
+        <activity
+            android:name=".Guidelines_to_InLine_Quality_Inspection"
+            android:exported="false" />
+        <activity
+            android:name=".Quality_Policy"
+            android:exported="false" />
+        <activity
+            android:name=".Reed_Count"
+            android:exported="false" />
+        <activity
+            android:name=".Packaging_Quality"
+            android:exported="false" />
+        <activity
+            android:name=".Testing_Quality"
+            android:exported="false" />
+        <activity
+            android:name=".Garment_Quality"
+            android:exported="false" />
+        <activity
+            android:name=".Quality_Level_of_a_Garment"
+            android:exported="false" />
+        <activity
+            android:name=".Quality_for_Export_Garment"
+            android:exported="false" />
+        <activity
+            android:name=".Quality_Management_System"
+            android:exported="false" />
+        <activity
+            android:name=".Quality_Management_quality"
+            android:exported="false" />
+        <activity
+            android:name=".QualityManagement"
+            android:exported="false" />
+        <activity
+            android:name=".StockSolution"
+            android:exported="false" />
+        <activity
+            android:name=".DyeSolution"
+            android:exported="false" />
+        <activity
+            android:name=".OwfToGl"
+            android:exported="false" />
+        <activity
+            android:name=".GlToOwf"
+            android:exported="false" />
+        <activity
+            android:name=".AddOn"
+            android:exported="false" />
+        <activity
+            android:name=".PenetrationFactor"
+            android:exported="false" />
+        <activity
+            android:name=".PerShiftProductionFour"
+            android:exported="false" />
+        <activity
+            android:name=".PerShiftProductionthree"
+            android:exported="false" />
+        <activity
+            android:name=".PerShiftProduction"
+            android:exported="false" />
+        <activity
+            android:name=".FabricProductionPerShift"
+            android:exported="false" />
+        <activity
+            android:name=".CirculerKnittingPerShift"
+            android:exported="false" />
+        <activity
+            android:name=".StitchLengthtwo"
+            android:exported="false" />
+        <activity
+            android:name=".PerSquareYard"
+            android:exported="false" />
+        <activity
+            android:name=".PerLinearYards"
+            android:exported="false" />
+        <activity
+            android:name=".MachineDia"
+            android:exported="false" />
+        <activity
+            android:name=".WidthDefferent"
+            android:exported="false" />
+        <activity
+            android:name=".ShrinkageRatio"
+            android:exported="false" />
+        <activity
+            android:name=".NeedleNumber"
+            android:exported="false" />
+        <activity
+            android:name=".FabricWidth2"
+            android:exported="false" />
+        <activity
+            android:name=".WaleWidth"
+            android:exported="false" />
+        <activity
+            android:name=".YarnDiaPerInch"
+            android:exported="false" />
+        <activity
+            android:name=".Courseperinch"
+            android:exported="false" />
+        <activity
+            android:name=".walseperinch"
+            android:exported="false" />
+        <activity
+            android:name=".KnittingR"
+            android:exported="false" />
+        <activity
+            android:name=".NoofNeedles"
+            android:exported="false" />
+        <activity
+            android:name=".DiaLoop"
+            android:exported="false" />
+        <activity
+            android:name=".StitchLength"
+            android:exported="false" />
+        <activity
+            android:name=".YarnDiameter"
+            android:exported="false" />
+        <activity
+            android:name=".KnittingGsmne"
+            android:exported="false" />
+        <activity
+            android:name=".KnittingGsm"
+            android:exported="false" />
+        <activity
+            android:name=".KnittingAreaDensity"
+            android:exported="false" />
+        <activity
+            android:name=".KnittingWidth"
+            android:exported="false" />
+        <activity
+            android:name=".Knitepdf"
+            android:exported="false" />
+        <activity
+            android:name=".StitchMachineType"
+            android:exported="false" />
+        <activity
+            android:name=".SewingControlTec"
+            android:exported="false" />
+        <activity
+            android:name=".SewingDefect"
+            android:exported="false" />
+        <activity
+            android:name=".CountGsm"
+            android:exported="false" />
+        <activity
+            android:name=".ImageViewRetrive"
+            android:exported="false" />
+        <activity
+            android:name=".UploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DisplayImageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Retrive_Images"
+            android:exported="false" />
+        <activity
+            android:name=".Various_Defect"
+            android:exported="false" />
+
+        <service
+            android:name=".FirebaseService"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.Send">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.android.c2dm.intent.Recieve" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".InspectionCalculation"
+            android:exported="false" />
+        <activity
+            android:name=".RgbRyb"
+            android:exported="false" />
+        <activity
+            android:name=".Speedframpro"
+            android:exported="false" />
+        <activity
+            android:name=".DrawframePro"
+            android:exported="false" />
+        <activity
+            android:name=".SpeedFrameProduction"
+            android:exported="false" />
+        <activity
+            android:name=".DrawFrameProduction"
+            android:exported="false" />
+        <activity
+            android:name=".Production_Capacity"
+            android:exported="false" />
+        <activity
+            android:name=".Labour_cost_per"
+            android:exported="false" />
+        <activity
+            android:name=".Machine_Uti_Perce"
+            android:exported="false" />
+        <activity
+            android:name=".Standard_Time_Estemate"
+            android:exported="false" />
+        <activity
+            android:name=".Labour_Productivity"
+            android:exported="false" />
+        <activity
+            android:name=".Machine_Productivity"
+            android:exported="false" />
+        <activity
+            android:name=".Line_Effi"
+            android:exported="false" />
+        <activity
+            android:name=".Indi_Operator_Effi"
+            android:exported="false" />
+        <activity
+            android:name=".Daily_Line_Target"
+            android:exported="false" />
+        <activity
+            android:name=".SMV"
+            android:exported="false" />
+        <activity
+            android:name=".Sewing_machine_name"
+            android:exported="false" />
+        <activity
+            android:name=".Jecket_con"
+            android:exported="false" />
+        <activity
+            android:name=".T_Shirt"
+            android:exported="false" />
+        <activity
+            android:name=".Pant_Con"
+            android:exported="false" />
+        <activity
+            android:name=".Shirt_Con"
+            android:exported="false" />
+        <activity
+            android:name=".Various_Dyeing_Machine"
+            android:exported="false" />
+        <activity
+            android:name=".Rolled_Fab"
+            android:exported="false" />
+        <activity
+            android:name=".Squreyds"
+            android:exported="false" />
+        <activity
+            android:name=".Fabric_in_GSM"
+            android:exported="false" />
+        <activity
+            android:name=".Weft_weight_kg"
+            android:exported="false" />
+        <activity
+            android:name=".Warp_weight_kg"
+            android:exported="false" />
+        <activity
+            android:name=".Moisture_content"
+            android:exported="false" />
+        <activity
+            android:name=".Notification"
+            android:exported="false" />
+        <activity
+            android:name=".Moisture_Regain"
+            android:exported="false" />
+        <activity
+            android:name=".Loom_Efee"
+            android:exported="false" />
+        <activity
+            android:name=".Loom_Speed"
+            android:exported="false" />
+        <activity
+            android:name=".Cloth_length_in_mtr"
+            android:exported="false" />
+        <activity
+            android:name=".Weft_Weight"
+            android:exported="false" />
+        <activity
+            android:name=".Warp_Weight"
+            android:exported="false" />
+        <activity
+            android:name=".Other_Design"
+            android:exported="false" />
+        <activity
+            android:name=".Sateen_Fab"
+            android:exported="false" />
+        <activity
+            android:name=".Drill_Fabrics"
+            android:exported="false" />
+        <activity
+            android:name=".Plain_Fab"
+            android:exported="false" />
+        <activity
+            android:name=".Cloth_Cover_Factor"
+            android:exported="false" />
+        <activity
+            android:name=".Weft_Cover_Factor"
+            android:exported="false" />
+        <activity
+            android:name=".Warp_Cover_Factor"
+            android:exported="false" />
+        <activity
+            android:name=".Crimp_Percent_width"
+            android:exported="false" />
+        <activity
+            android:name=".Crimp_Percent_length"
+            android:exported="false" />
+        <activity
+            android:name=".Reed_Width"
+            android:exported="false" />
+        <activity
+            android:name=".UpComming"
+            android:exported="false" />
+        <activity
+            android:name=".Spindle_Hank_Delivered"
+            android:exported="false" />
+        <activity
+            android:name=".Spindle_Speed"
+            android:exported="false" />
+        <activity
+            android:name=".Front_Roller_Surface_Speed"
+            android:exported="false" />
+        <activity
+            android:name=".Spindle_Efficiency"
+            android:exported="false" />
+        <activity
+            android:name=".ExpectedHank"
+            android:exported="false" />
+        <activity
+            android:name=".Gram_per_Spindle"
+            android:exported="false" />
+        <activity
+            android:name=".Spindle_per_Shift"
+            android:exported="false" />
+        <activity
+            android:name=".Twist_Multiplier"
+            android:exported="false" />
+        <activity
+            android:name=".TPI_SpeedFrame"
+            android:exported="false" />
+        <activity
+            android:name=".Draft_One"
+            android:exported="false" />
+        <activity
+            android:name=".Hank_Delivered"
+            android:exported="false" />
+        <activity
+            android:name=".Draft_Change_Wheel"
+            android:exported="false" />
+        <activity
+            android:name=".Drawing_Can_Weight_in_Kg"
+            android:exported="false" />
+        <activity
+            android:name=".Comber_Drafting"
+            android:exported="false" />
+        <activity
+            android:name=".Nuber_Fiber"
+            android:exported="false" />
+        <activity
+            android:name=".Batt_Weight"
+            android:exported="false" />
+        <activity
+            android:name=".Lap_Former_Proction"
+            android:exported="false" />
+        <activity
+            android:name=".ComberProduction"
+            android:exported="false" />
+        <activity
+            android:name=".Actual_Draft"
+            android:exported="false" />
+        <activity
+            android:name=".Lickerin_speed"
+            android:exported="false" />
+        <activity
+            android:name=".Carding_Index"
+            android:exported="false" />
+        <activity
+            android:name=".Avg_Speed_Card"
+            android:exported="false" />
+        <activity
+            android:name=".Card_Doffer_Speed"
+            android:exported="false" />
+        <activity
+            android:name=".Draft_Constant"
+            android:exported="false" />
+        <activity
+            android:name=".Cleaning_Efficency_Card"
+            android:exported="false" />
+        <activity
+            android:name=".Surface_Speed"
+            android:exported="false" />
+        <activity
+            android:name=".Nep_per_2grains"
+            android:exported="false" />
+        <activity
+            android:name=".St_Nep_Count"
+            android:exported="false" />
+        <activity
+            android:name=".Nep_Count"
+            android:exported="false" />
+        <activity
+            android:name=".Side_shaft"
+            android:exported="false" />
+        <activity
+            android:name=".Production_card"
+            android:exported="false" />
+        <activity
+            android:name=".TPI"
+            android:exported="false" />
+        <activity
+            android:name=".Draft"
+            android:exported="false" />
+        <activity
+            android:name=".Percent_waste"
+            android:exported="false" />
+        <activity
+            android:name=".Draf_of_a_scutcher"
+            android:exported="false" />
+        <activity
+            android:name=".Production_scutcher"
+            android:exported="false" />
+        <activity
+            android:name=".Weight_of_lap"
+            android:exported="false" />
+        <activity
+            android:name=".Beats_per_inch"
+            android:exported="false" />
+        <activity
+            android:name=".Beater_trash_percent"
+            android:exported="false" />
+        <activity
+            android:name=".Total_Blow_Room_waste"
+            android:exported="false" />
+        <activity
+            android:name=".Beater_wise_waste"
+            android:exported="false" />
+        <activity
+            android:name=".Cleaning_Efficency"
+            android:exported="false" />
+        <activity
+            android:name=".Ringframe_Production"
+            android:exported="false" />
+        <activity
+            android:name=".Comber_Production"
+            android:exported="false" />
+        <activity
+            android:name=".Carding_Production"
+            android:exported="false" />
+        <activity
+            android:name=".Blow_Room"
+            android:exported="false" />
+        <activity
+            android:name=".YarnCount"
+            android:exported="false" />
+        <activity
+            android:name=".Energy"
+            android:exported="false" />
+        <activity
+            android:name=".Pressure"
+            android:exported="false" />
+        <activity
+            android:name=".CFT_Calculation"
+            android:exported="false" />
+        <activity
+            android:name=".Time"
+            android:exported="false" />
+        <activity
+            android:name=".Weight"
+            android:exported="false" />
+        <activity
+            android:name=".Volume"
+            android:exported="false" />
+        <activity
+            android:name=".Area"
+            android:exported="false" />
+        <activity
+            android:name=".LengthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Converter"
+            android:exported="false" />
+        <activity
+            android:name=".Coments"
+            android:exported="false" />
+        <activity
+            android:name=".Auxiliarise"
+            android:exported="false" />
+        <activity
+            android:name=".Dye_Calculation"
+            android:exported="false" />
+        <activity
+            android:name=".Showmore"
+            android:exported="false" />
+        <activity
+            android:name=".Archived"
+            android:exported="false" />
+        <activity
+            android:name=".Dyeing_Calculation"
+            android:exported="false" />
+        <activity
+            android:name=".Elengation"
+            android:exported="false" />
+        <activity
+            android:name=".ColorCode"
+            android:exported="false" />
+        <activity
+            android:name=".Pad_Steam"
+            android:exported="false" />
+        <activity
+            android:name=".Termosul"
+            android:exported="false" />
+        <activity
+            android:name=".CPB"
+            android:exported="false" />
+        <activity
+            android:name=".MerceCon"
+            android:exported="false" />
+        <activity
+            android:name=".BleachingCon"
+            android:exported="false" />
+        <activity
+            android:name=".SingeingCon"
+            android:exported="false" />
+        <activity
+            android:name=".Various"
+            android:exported="false" />
+        <activity
+            android:name=".BullTwill"
+            android:exported="false" />
+        <activity
+            android:name=".PeachFinish"
+            android:exported="false" />
+        <activity
+            android:name=".ColdBleach"
+            android:exported="false" />
+        <activity
+            android:name=".AllYarn"
+            android:exported="false" />
+        <activity
+            android:name=".Peach"
+            android:exported="false" />
+        <activity
+            android:name=".WhiteCotton"
+            android:exported="false" />
+        <activity
+            android:name=".CottonColor"
+            android:exported="false" />
+        <activity
+            android:name=".PreConsumption"
+            android:exported="false" />
+        <activity
+            android:name=".CausticTitrate"
+            android:exported="false" />
+        <activity
+            android:name=".HydrogenTitrate"
+            android:exported="false" />
+        <activity
+            android:name=".Quality"
+            android:exported="false" />
+        <activity
+            android:name=".Natomtr"
+            android:exported="false" />
+        <activity
+            android:name=".Singeing"
+            android:exported="false" />
+        <activity
+            android:name=".CausticBaume"
+            android:exported="false" />
+        <activity
+            android:name=".PickUp"
+            android:exported="false" />
+        <activity
+            android:name=".BleachingRecipe"
+            android:exported="false" />
+        <activity
+            android:name=".GsmGlm"
+            android:exported="false" />
+        <activity
+            android:name=".MachineEdit"
+            android:exported="false" />
+        <activity
+            android:name=".ConstructionEdit"
+            android:exported="false" />
+        <activity
+            android:name=".AllEdit"
+            android:exported="false" />
+        <activity
+            android:name=".BuyerEdit"
+            android:exported="false" />
+        <activity
+            android:name=".Edit"
+            android:exported="false" />
+        <activity
+            android:name=".MachineView"
+            android:exported="false" />
+        <activity
+            android:name=".Machine"
+            android:exported="false" />
+        <activity
+            android:name=".FabConstructionV"
+            android:exported="false" />
+        <activity
+            android:name=".FabConstruction"
+            android:exported="false" />
+        <activity
+            android:name=".TotalDataview"
+            android:exported="false" />
+        <activity
+            android:name=".TotalDatasave"
+            android:exported="false" />
+        <activity
+            android:name=".ConstructionV"
+            android:exported="false" />
+        <activity
+            android:name=".Construction"
+            android:exported="false" />
+        <activity
+            android:name=".CategoryView"
+            android:exported="false" />
+        <activity
+            android:name=".CategoryAdd"
+            android:exported="false" />
+        <activity
+            android:name=".Garments"
+            android:exported="false" />
+        <activity
+            android:name=".Knit_Dyeing"
+            android:exported="false" />
+        <activity
+            android:name=".Knitting"
+            android:exported="false" />
+        <activity
+            android:name=".Weaving"
+            android:exported="false" />
+        <activity
+            android:name=".Show"
+            android:exported="false" />
+        <activity
+            android:name=".Spinning"
+            android:exported="false" />
+        <activity
+            android:name=".Conversion"
+            android:exported="false" />
+        <activity
+            android:name=".InterView"
+            android:exported="false" />
+        <activity
+            android:name=".LabTest"
+            android:exported="false" />
+        <activity
+            android:name=".Inspection"
+            android:exported="false" />
+        <activity
+            android:name=".Finishing"
+            android:exported="false" />
+        <activity
+            android:name=".Printing"
+            android:exported="false" />
+        <activity
+            android:name=".Dyeing"
+            android:exported="false" />
+        <activity
+            android:name=".Pretreatment"
+            android:exported="false" />
+        <activity
+            android:name=".Calender"
+            android:exported="false" />
+        <activity
+            android:name=".Database"
+            android:exported="false" />
+        <activity
+            android:name=".About"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <receiver
+            android:name=".ScreenReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.SCREEN_OFF" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.startapp.sdk.APPLICATION_ID"
+            android:value="205495765" />
+    </application>
+
+</manifest>

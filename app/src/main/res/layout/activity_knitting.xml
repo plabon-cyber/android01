@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_color2"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/headid1">
+
+        <TextView
+            android:id="@+id/pretext"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#013E03"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/preimage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    </LinearLayout>
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/headid1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#003302"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ListView
+                android:id="@+id/list1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:divider="#FFD600"
+                android:dividerHeight="1dp"
+                android:listSelector="#AEE4BA"
+                tools:ignore="NestedScrolling" />
+
+
+            <ListView
+                android:id="@+id/list2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:divider="#FFD600"
+                android:dividerHeight="1dp"
+                android:listSelector="#AEE4BA"
+                tools:ignore="NestedScrolling" />
+
+            <ListView
+                android:id="@+id/list3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:divider="#FFD600"
+                android:dividerHeight="1dp"
+                android:listSelector="#AEE4BA"
+                tools:ignore="NestedScrolling" />
+
+            <ListView
+                android:id="@+id/list03"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:divider="#FFD600"
+                android:dividerHeight="1dp"
+                android:listSelector="#AEE4BA"
+                tools:ignore="NestedScrolling" />
+
+
+
+            <ListView
+                android:id="@+id/list4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:divider="#FFD600"
+                android:dividerHeight="1dp"
+                android:listSelector="#AEE4BA"
+                tools:ignore="NestedScrolling" />
+
+            <ListView
+                android:id="@+id/list5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:divider="#FFD600"
+                android:dividerHeight="1dp"
+                android:listSelector="#AEE4BA"
+                tools:ignore="NestedScrolling" />
+
+            <ListView
+                android:id="@+id/list6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:divider="#FFD600"
+                android:dividerHeight="1dp"
+                android:listSelector="#AEE4BA"
+                tools:ignore="NestedScrolling" />
+
+
+            <ListView
+                android:id="@+id/list7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:divider="#FFD600"
+                android:dividerHeight="1dp"
+                android:listSelector="#AEE4BA"
+                tools:ignore="NestedScrolling" />
+
+            <ListView
+                android:id="@+id/list8"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:divider="#FFD600"
+                android:dividerHeight="1dp"
+                android:listSelector="#AEE4BA"
+                tools:ignore="NestedScrolling" />
+
+            <ListView
+                android:id="@+id/list9"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:divider="#FFD600"
+                android:dividerHeight="1dp"
+                android:listSelector="#AEE4BA"
+                tools:ignore="NestedScrolling" />
+
+            <ListView
+                android:id="@+id/list10"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:divider="#FFD600"
+                android:dividerHeight="1dp"
+                android:listSelector="#AEE4BA"
+                tools:ignore="NestedScrolling" />
+
+            <ListView
+                android:id="@+id/list11"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:divider="#FFD600"
+                android:dividerHeight="1dp"
+                android:listSelector="#AEE4BA"
+                tools:ignore="NestedScrolling" />
+
+            <ListView
+                android:id="@+id/list12"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:divider="#FFD600"
+                android:dividerHeight="1dp"
+                android:listSelector="#AEE4BA"
+                tools:ignore="NestedScrolling" />
+            <ListView
+                android:id="@+id/list13"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:divider="#FFD600"
+                android:dividerHeight="1dp"
+                android:listSelector="#AEE4BA"
+                tools:ignore="NestedScrolling" />
+            <ListView
+                android:id="@+id/list14"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:divider="#FFD600"
+                android:dividerHeight="1dp"
+                android:listSelector="#AEE4BA"
+                tools:ignore="NestedScrolling" />
+
+            <ListView
+                android:id="@+id/list15"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:divider="#FFD600"
+                android:dividerHeight="1dp"
+                android:listSelector="#AEE4BA"
+                tools:ignore="NestedScrolling" />
+
+            <ListView
+                android:id="@+id/list16"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:divider="#FFD600"
+                android:dividerHeight="1dp"
+                android:listSelector="#AEE4BA"
+                tools:ignore="NestedScrolling" />
+
+            <ListView
+                android:id="@+id/list17"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:divider="#FFD600"
+                android:dividerHeight="1dp"
+                android:listSelector="#AEE4BA"
+                tools:ignore="NestedScrolling" />
+            <ListView
+                android:id="@+id/list18"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:divider="#FFD600"
+                android:dividerHeight="1dp"
+                android:listSelector="#AEE4BA"
+                tools:ignore="NestedScrolling" />
+
+            <ListView
+                android:id="@+id/list19"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:divider="#FFD600"
+                android:dividerHeight="1dp"
+                android:listSelector="#AEE4BA"
+                tools:ignore="NestedScrolling" />
+
+            <ListView
+                android:id="@+id/list20"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:divider="#FFD600"
+                android:dividerHeight="1dp"
+                android:listSelector="#AEE4BA"
+                tools:ignore="NestedScrolling" />
+
+            <ListView
+                android:id="@+id/list21"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:divider="#FFD600"
+                android:dividerHeight="1dp"
+                android:listSelector="#AEE4BA"
+                tools:ignore="NestedScrolling" />
+
+            <ListView
+                android:id="@+id/list22"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:divider="#FFD600"
+                android:dividerHeight="1dp"
+                android:listSelector="#AEE4BA"
+                tools:ignore="NestedScrolling" />
+
+            <ListView
+                android:id="@+id/list23"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:divider="#FFD600"
+                android:dividerHeight="1dp"
+                android:listSelector="#AEE4BA"
+                tools:ignore="NestedScrolling" />
+
+            <ListView
+                android:id="@+id/list24"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:divider="#FFD600"
+                android:dividerHeight="1dp"
+                android:listSelector="#AEE4BA"
+                tools:ignore="NestedScrolling" />
+            <ListView
+                android:id="@+id/list25"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:divider="#FFD600"
+                android:dividerHeight="1dp"
+                android:listSelector="#AEE4BA"
+                tools:ignore="NestedScrolling" />
+
+            <ListView
+                android:id="@+id/list26"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:divider="#FFD600"
+                android:dividerHeight="1dp"
+                android:listSelector="#AEE4BA"
+                tools:ignore="NestedScrolling" />
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
